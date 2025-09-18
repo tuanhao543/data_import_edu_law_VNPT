@@ -1,0 +1,50 @@
+:START_ID,:END_ID,:TYPE
+Sở Giáo dục và Đào tạo,3632/KH-SGDĐT,BAN_HANH
+3632/KH-SGDĐT,Nguyễn Bảo Quốc,KY_BOI
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_I,BAO_GOM
+3632/KH-SGDĐT,06/QĐ-TTg,CAN_CU
+3632/KH-SGDĐT,131/QĐ-TTg,CAN_CU
+3632/KH-SGDĐT,04/CT-TTg,CAN_CU
+3632/KH-SGDĐT,213/KH-BGDĐT,CAN_CU
+3632/KH-SGDĐT,1396/BGDĐT-GDTH,CAN_CU
+3632/KH-SGDĐT,2088/BGDĐT-GDTH,CAN_CU
+3632/KH-SGDĐT,1411/QĐ-UBND,CAN_CU
+3632/KH-SGDĐT,1270/QĐ-SGDĐT,CAN_CU
+3632/KH-SGDĐT,5496/SGDĐT-VP,CAN_CU
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_I,BAO_GOM
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_II,BAO_GOM
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_III,BAO_GOM
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_IV,BAO_GOM
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_V,BAO_GOM
+3632/KH-SGDĐT,3632/KH-SGDĐT-Muc_VI,BAO_GOM
+3632/KH-SGDĐT-Muc_IV,3632/KH-SGDĐT-Muc_IV-Phòng_Giáo_dục_và_Đào_tạo_các_quận,GIAO_NHIEM_VU
+Phòng Giáo dục và Đào tạo các quận/huyện/thành phố,3632/KH-SGDĐT-Muc_IV-Phòng_Giáo_dục_và_Đào_tạo_các_quận,CHU_TRI
+3632/KH-SGDĐT-Muc_IV,3632/KH-SGDĐT-Muc_IV-Các_cơ_sở_giáo_dục,GIAO_NHIEM_VU
+Các cơ sở giáo dục,3632/KH-SGDĐT-Muc_IV-Các_cơ_sở_giáo_dục,CHU_TRI
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_1,GIAO_NHIEM_VU
+Văn phòng Sở,3632/KH-SGDĐT-Muc_V-nv_1,CHU_TRI
+Phòng GDĐT các quận/huyện/thành phố,3632/KH-SGDĐT-Muc_V-nv_1,PHOI_HOP
+Công an Thành  phố,3632/KH-SGDĐT-Muc_V-nv_1,PHOI_HOP
+cơ sở giáo dục.,3632/KH-SGDĐT-Muc_V-nv_1,PHOI_HOP
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_2,GIAO_NHIEM_VU
+Văn phòng Sở.,3632/KH-SGDĐT-Muc_V-nv_2,CHU_TRI
+các phòng chuyên môn thuộc Sở,3632/KH-SGDĐT-Muc_V-nv_2,PHOI_HOP
+các doanh nghiệp.,3632/KH-SGDĐT-Muc_V-nv_2,PHOI_HOP
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_3,GIAO_NHIEM_VU
+"Phòng GDĐT các quận/huyện/thành phố, cơ sở giáo dục. Đơn vị phối hợp: Cục Chứng thư - Ban cơ yếu Chính phủ, Văn phòng Sở.",3632/KH-SGDĐT-Muc_V-nv_3,CHU_TRI
+Cục Chứng thư - Ban cơ yếu Chính phủ,3632/KH-SGDĐT-Muc_V-nv_3,PHOI_HOP
+Văn phòng Sở.,3632/KH-SGDĐT-Muc_V-nv_3,PHOI_HOP
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_4,GIAO_NHIEM_VU
+"Văn phòng Sở, Phòng Giáo dục Tiểu học.",3632/KH-SGDĐT-Muc_V-nv_4,CHU_TRI
+Phòng GDĐT các quận/huyện/thành phố,3632/KH-SGDĐT-Muc_V-nv_4,PHOI_HOP
+cơ sở giáo dục.,3632/KH-SGDĐT-Muc_V-nv_4,PHOI_HOP
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_5,GIAO_NHIEM_VU
+"Văn phòng Sở, Phòng Giáo dục Tiểu học.",3632/KH-SGDĐT-Muc_V-nv_5,CHU_TRI
+các phòng chuyên môn thuộc Sở,3632/KH-SGDĐT-Muc_V-nv_5,PHOI_HOP
+cơ sở giáo dục,3632/KH-SGDĐT-Muc_V-nv_5,PHOI_HOP
+các  doanh nghiệp.,3632/KH-SGDĐT-Muc_V-nv_5,PHOI_HOP
+3632/KH-SGDĐT-Muc_V,3632/KH-SGDĐT-Muc_V-nv_6,GIAO_NHIEM_VU
+"Văn phòng Sở, các phòng chuyên môn thuộc",3632/KH-SGDĐT-Muc_V-nv_6,CHU_TRI
+Phòng GDĐT các quận/huyện/thành phố,3632/KH-SGDĐT-Muc_V-nv_6,PHOI_HOP
+cơ sở giáo dục,3632/KH-SGDĐT-Muc_V-nv_6,PHOI_HOP
+các doanh nghiệp công nghệ thông tin,3632/KH-SGDĐT-Muc_V-nv_6,PHOI_HOP

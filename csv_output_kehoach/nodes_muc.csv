@@ -1,0 +1,76 @@
+mucId:ID,soMuc,tieuDe,noiDung,:LABEL
+3632/KH-SGDĐT-Muc_I,I,I. MỤC ĐÍCH YÊU CẦU,"1. Mục đích 
+Xây dựng, hoàn thiện mô hình, quy trình quản lý, sử dụng Học bạ số làm  cơ sở triển khai thống nhất toàn Thành phố. Học bạ số có tính hiệu lực, pháp lý và đưa sử dụng tương tự như học bạ giấy. 
+Triển khai hiệu quả các Mô hình điểm của Đề án phát triển ứng dụng dữ liệu về dân cư, định danh và xác thực điện tử phục vụ chuyển đổi số quốc gia giai đoạn  2022-2025, tầm nhìn đến năm 2030 của ngành Giáo dục và Đào tạo Thành phố. 
+2. Yêu cầu 
+Các nội dung thí điểm phải đảm bảo tiêu chuẩn, quy chuẩn, yêu cầu chức  năng, kỹ thuật theo quy định của Bộ GDĐT và Quy chế quản lý, sử dụng Hệ thống  theo dõi, đánh giá học sinh và Học bạ số của ngành GDĐT Thành phố; sẵn sàng kết  nối với hệ thống quản lý thông tin của Bộ GDĐT thống nhất toàn quốc. 
+Giải pháp kỹ thuật Học bạ số phải bảo đảm tính kế thừa, khả thi, an toàn,  đồng bộ, liên thông, tiết kiệm, hiệu quả; đáp ứng các quy định pháp luật để sử dụng thay thế Học bạ giấy trong thực hiện các thủ tục hành chính có sử dụng Học bạ. 
+Cơ sở dữ liệu Học bạ số được xây dựng, quản lý tập trung bởi Sở GDĐT.  Các đơn vị cung cấp dịch vụ tham gia thực hiện thí điểm Học bạ số phải được kết  nối với Cơ sở dữ liệu học bạ số; có chức năng, thẩm quyền theo quy định của pháp  luật; có đủ năng lực, kinh nghiệm trong lĩnh vực cung cấp dịch vụ công nghệ  thông tin trong lĩnh vực giáo dục; cam kết cung cấp dịch vụ ổn định, an toàn khi  triển khai phương án, giải pháp kỹ thuật về Học bạ số; đáp ứng các yêu cầu về xác  thực, bảo mật, toàn vẹn dữ liệu theo quy định. 
+Việc triển khai thực hiện cần phát huy hiệu quả tối đa kinh nghiệm, điều kiện cơ sở vật chất hạ tầng, nhân lực hiện có, bám sát kế hoạch, hướng dẫn của Bộ  GDĐT và chủ động, linh hoạt triển khai thực hiện phù hợp với điều kiện thực tế  tại Thành phố.",Muc
+3632/KH-SGDĐT-Muc_II,II,"II. PHẠM VI, TIẾN ĐỘ TRIỂN KHAI THÍ ĐIỂM","Năm học 2023 – 2024, thí điểm triển khai Học bạ số đối với khối Lớp 1 của  các cơ sở giáo dục có cấp Tiểu học trên địa bàn Thành phố. 
+Năm học 2024 – 2025, thí điểm triển khai Học bạ số đối với Lớp 6 của các  cơ sở giáo dục có cấp Trung học cơ sở trên địa bàn Thành phố; số hóa toàn bộ dữ liệu học bạ cấp Tiểu học, Trung học cơ sở. 
+Năm học 2025 – 2026, thí điểm triển khai Học bạ số đối với Lớp 10 của  các cơ sở giáo dục có cấp Trung học phổ thông trên địa bàn Thành phố; số hóa  toàn bộ dữ liệu học bạ cấp Trung học phổ thông.
+
+Tùy tình hình thực tế, các thể chế pháp lý, chỉ đạo của lãnh đạo Thành phố, lãnh đạo Bộ GDĐT có thể điều chỉnh tiến độ thực hiện thí điểm Học bạ số cho  phù hợp.",Muc
+3632/KH-SGDĐT-Muc_III,III,III. NỘI DUNG TRIỂN KHAI,"1. Xây dựng thể chế 
+Xây dựng hệ thống văn bản chỉ đạo, hướng dẫn, đôn đốc các cơ quan quản  lý, cơ sở giáo dục chuẩn bị đầy đủ các điều kiện để triển khai thí điểm Học bạ số. 
+Xây dựng quy chế quản lý, sử dụng Hệ thống theo dõi, đánh giá học sinh  và Học bạ số ngành GDĐT Thành phố. 
+2. Xây dựng giải pháp, chuẩn bị hạ tầng kỹ thuật, nhân sự 
+Xây dựng Hệ thống Cơ sở dữ liệu Học bạ số ngành GDĐT Thành phố. 
+Phối hợp với các doanh nghiệp công nghệ thông tin bổ sung phần mềm Học  bạ số trong Hệ thống quản lý nhà trường của cơ sở giáo dục; hướng dẫn, tập huấn  cho cơ sở giáo dục triển khai sử dụng. 
+Trang bị chứng thư số, chữ ký số cho cơ sở giáo dục và cá nhân. 
+Tập huấn, hướng dẫn các cơ quan quản lý, cơ sở giáo dục, cán bộ quản lý  giáo dục, giáo viên, nhân viên, ... sử dụng giải pháp Học bạ số.",Muc
+3632/KH-SGDĐT-Muc_IV,IV,IV. TỔ CHỨC THỰC HIỆN,"1. Sở Giáo dục và Đào tạo 
+Thành lập Ban chỉ đạo triển khai Hệ thống theo dõi, đánh giá học sinh và  Học bạ số ngành GDĐT Thành phố. 
+Xây dựng Quy chế quản lý, sử dụng Hệ thống theo dõi, đánh giá học sinh  và Học bạ số ngành GDĐT Thành phố; ban hành Kế hoạch triển khai, các văn bản  chỉ đạo về thí điểm Học bạ số theo Quy chế nêu trên. 
+Chủ trì xây dựng Hệ thống Cơ sở dữ liệu Học bạ số đảm bảo các yêu cầu về quản lý tập trung dữ liệu học bạ số, chứng thư số, ... và tính toàn vẹn của dữ liệu. 
+Xây dựng yêu cầu, quy định tiêu chuẩn, quy chuẩn kỹ thuật Học bạ số.  Đánh giá các giải pháp kỹ thuật đảm bảo triển khai Học bạ số. 
+Chủ động, tăng cường tuyên truyền, quán triệt mục đích, vai trò của Học  bạ số trong toàn ngành GDĐT Thành phố. 
+Tổ chức các Hội nghị triển khai thí điểm Học bạ số theo Kế hoạch và tổ  chức tổng kết đánh giá kết quả triển khai tại các quận, huyện, thành phố Thủ Đức;  xem xét, điều chỉnh về phương án triển khai đại trà Học bạ số trên địa bàn Thành  phố Hồ Chí Minh.
+
+2. Phòng Giáo dục và Đào tạo các quận/huyện/thành phố 
+Thành lập Ban chỉ đạo triển khai thí điểm Hệ thống theo dõi, đánh giá học  sinh và Học bạ số tại địa phương. 
+Xây dựng kế hoạch triển khai, ban hành các văn bản chỉ đạo, hướng dẫn thực hiện thí điểm Học bạ số theo quy định tại Quy chế quản lý, sử dụng Hệ thống  theo dõi, đánh giá học sinh và Học bạ số ngành GDĐT Thành phố. Theo dõi, kiểm  tra các đơn vị trường học thuộc phạm vi quản lý trên địa bàn triển khai thí điểm  và phân công nhiệm vụ cụ thể, trách nhiệm của từng cá nhân, đơn vị. 
+Đẩy mạnh tuyên truyền đến cán bộ quản lý, giáo viên, nhân viên, phụ  huynh, học sinh về lợi ích, ý nghĩa của Học bạ số. 
+Hướng dẫn, chỉ đạo các cơ sở giáo dục trên địa bàn triển khai rà soát, đánh  giá, chuẩn bị các điều kiện kỹ thuật, nhân sự, nguồn lực bảo đảm các điều kiện  triển khai thí điểm Học bạ số. 
+Chịu trách nhiệm tổ chức Hội nghị, tập huấn nghiệp vụ triển khai thí điểm  Học bạ số cho các cấp học. 
+Trong quá trình triển khai, thực hiện vừa làm vừa đánh giá kết quả, kịp thời  có kiến nghị, đề xuất với Sở Giáo dục và Đào tạo các giải pháp triển khai hiệu quả  Học bạ số. 
+3. Các cơ sở giáo dục 
+Thành lập Ban quản trị Hệ thống theo dõi, đánh giá học sinh và Học bạ số  của đơn vị. 
+Xây dựng Quy chế và Kế hoạch triển khai thí điểm Học bạ số, phân công  nhiệm vụ cụ thể, trách nhiệm của từng cá nhân tại đơn vị. 
+Tổ chức tập huấn nghiệp vụ, sử dụng phần mềm; tuyên truyền lợi ích, ý nghĩa của Học bạ số cho lãnh đạo đơn vị, giáo viên, nhân viên, học sinh, phụ huynh để  triển khai hiệu quả thí điểm Học bạ số tại đơn vị. 
+Chuẩn bị, đảm bảo các nguồn lực để triển khai hiệu quả Học bạ số tại đơn vị.",Muc
+3632/KH-SGDĐT-Muc_V,V,V. TIẾN ĐỘ THỰC HIỆN,"1. Xây dựng Quy chế quản lý, sử dụng Hệ thống theo dõi, đánh giá  học sinh và Học bạ số 
+Nội dung: nghiên cứu các quy định về Luật Giao dịch điện tử, các chỉ đạo,  hướng dẫn của Bộ GDĐT về triển khai thí điểm Học bạ số và tình hình thực tế  của ngành GDĐT Thành phố để xây dựng Quy chế quản lý, sử dụng Hệ thống  theo dõi, đánh giá học sinh và Học bạ số. 
+Đơn vị chủ trì: Văn phòng Sở. 
+Đơn vị phối hợp: các phòng chuyên môn thuộc Sở. 
+Thời gian hoàn thành: 20/6/2024.
+
+2. Rà soát dữ liệu học sinh lớp 1 
+Nội dung: rà soát, đảm bảo 100% học sinh lớp 1 được cấp Mã định danh cá  nhân và cập nhật đầy đủ thông tin, trường hợp học sinh chưa được cấp Mã định  danh cá nhân, thủ trưởng đơn vị báo cáo Sở GDĐT để có phương án giải quyết. Đơn vị chủ trì: Văn phòng Sở 
+Đơn vị phối hợp: Phòng GDĐT các quận/huyện/thành phố, Công an Thành  phố, cơ sở giáo dục. 
+Thời gian hoàn thành: 30/6/2024. 
+3. Rà soát, yêu cầu bổ sung chức năng quản lý Học bạ số trong Hệ thống  quản lý trường học 
+Nội dung: tổ chức làm việc với các đơn vị cung cấp dịch vụ tham gia thực  hiện thí điểm Học bạ số để yêu cầu bổ sung chức năng quản lý Học bạ số trong  Hệ thống quản lý trường học. 
+Đơn vị chủ trì: Văn phòng Sở. 
+Đơn vị phối hợp: các phòng chuyên môn thuộc Sở, các doanh nghiệp. 
+Thời gian hoàn thành: 15/6/2024. 
+4. Rà soát, chỉ đạo đơn vị chuẩn bị các điều kiện cần thiết để triển khai  thí điểm 
+Nội dung: rà soát cơ sở vật chất, hạ tầng triển khai Học bạ số; đảm bảo pháp  lý cho chứng thư số, chữ ký số được cấp cho đơn vị, cán bộ quản lý, giáo viên;  đảm bảo phần mềm học bạ số triển khai tại đơn vị được kết nối với Cơ sở dữ liệu  Học bạ số của ngành GDĐT Thành phố và đáp ứng các quy định. 
+Đơn vị và cán bộ quản lý sử dụng chứng thư số, chữ ký số do Ban cơ yếu  Chính phủ cấp (trường hợp chưa có chứng thư số, cá nhân, đơn vị đề nghị cấp  chứng thư số theo mẫu đính kèm); giáo viên, nhân viên sử dụng chứng thư số cá  nhân (trường hợp chưa được cấp chứng thư số, cơ sở giáo dục phối hợp với đơn  vị cung cấp dịch vụ cấp chứng thư số theo hướng dẫn của Sở GDĐT1). 
+Đơn vị chủ trì: Phòng GDĐT các quận/huyện/thành phố, cơ sở giáo dục. Đơn vị phối hợp: Cục Chứng thư - Ban cơ yếu Chính phủ, Văn phòng Sở. 
+Thời gian hoàn thành: 30/6/2024. 
+5. Tổ chức Hội nghị trực tuyến hướng dẫn triển khai thí điểm Học bạ  số cấp Tiểu học (Khối 1) 
+Nội dung: tổ chức hội nghị trực tuyến triển khai các nội dung thí điểm  Học bạ số (quy chế, kế hoạch triển khai, tập huấn phần mềm, ...). Đơn vị chủ trì: Văn phòng Sở, Phòng Giáo dục Tiểu học. 
+Đơn vị phối hợp: Phòng GDĐT các quận/huyện/thành phố, cơ sở giáo dục. 
+Thời gian thực hiện: Tháng 7/2024.  
+6. Triển khai thí điểm Học bạ số cấp Tiểu học (Khối 1) 
+Nội dung: triển khai thí điểm Học bạ số cấp Tiểu học (Khối 1). Đơn vị chủ trì: Văn phòng Sở, Phòng Giáo dục Tiểu học. 
+Đơn vị phối hợp: các phòng chuyên môn thuộc Sở, cơ sở giáo dục, các  doanh nghiệp. 
+Thời gian thực hiện: triển khai thí điểm đến hết ngày 15/8/2024. 
+7. Tổ chức Hội nghị sơ kết việc triển khai thí điểm Học bạ số cấp Tiểu học (Khối 1) 
+Nội dung: tổ chức hội nghị sơ kết triển khai các nội dung thí điểm Học bạ số nhằm đánh giá kết quả triển khai, tổng kết những tồn tại khó khăn, vướng mắc, đề  xuất phương hướng xử lý, cải tiến giải pháp. 
+Đơn vị chủ trì: Văn phòng Sở, các phòng chuyên môn thuộc 
+Sở Đơn vị phối hợp: Phòng GDĐT các quận/huyện/thành phố, cơ sở giáo dục,  các doanh nghiệp công nghệ thông tin 
+Thời gian thực hiện: 30/8/2024.",Muc
+3632/KH-SGDĐT-Muc_VI,VI,VI. KINH PHÍ,Kinh phí tổ chức các hoạt động triển khai thí điểm Học bạ số được sử dụng  từ nguồn Ngân sách nhà nước và nguồn kinh phí hợp pháp khác. Nội dung và định  mức chi thực hiện theo quy định hiện hành.,Muc
