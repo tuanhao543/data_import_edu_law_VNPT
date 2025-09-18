@@ -1,0 +1,621 @@
+phulucId:ID,soPhuLuc,noiDung,:LABEL
+2088/BGDĐT-GDTH-PL1-PHỤ_LỤC_01,PHỤ LỤC 01,CẤU TRÚC THÔNG TIN HỌC BẠ SỐ BẬC TIỂU HỌC....................................... 30,PhuLuc
+2088/BGDĐT-GDTH-PL1-PHỤ_LỤC_02,PHỤ LỤC 02,"HƯỚNG DẪN HÀM MÃ HOÁ DỮ LIỆU TRUYỀN NHẬN................................... 34
+I. Thông tin chung
+1. Phạm vi áp dụng
+Tài liệu này quy định các yêu cầu về đặc tả kỹ thuật, định dạng cấu trúc và thành phần dữ liệu phục vụ việc truyền nhận về học bạ số, sử dụng cho thí điểm học bạ số bậc tiểu học.
+Tài liệu này áp dụng cho:
+Cơ quan quản lý giáo dục và đào tạo gồm: Bộ Giáo dục và Đào tạo, các sở giáo dục và đào tạo, các phòng giáo dục và đào tạo tham gia thí điểm học bạ số tiểu học;
+Các cơ sở giáo dục, các cơ quan, tổ chức có liên quan tham gia thí điểm học bạ số tiểu học.
+Trong quá trình thí điểm, căn cứ vào điều kiện và diễn biến thực tiễn, nội dung tài liệu này có thể được điều chỉnh để đảm bảo tính hiệu quả, khả thi.
+2. Căn cứ, viện dẫn
+Hạ tầng kỹ thuật triển khai thí điểm học bạ số cần đáp ứng các yêu cầu kỹ thuật trong tài liệu này và tuân thủ các căn cứ sau đây:
+---START_TABLE---
+STT | Tên tài liệu | Ngày ban hành | Mục đích
+1 | Luật giao dịch điện tử số 51/2005/QH11 ngày 29/11/2005 do Quốc Hội ban hành | 29/11/2005 | Quy định về giao dịch điện tử (sẽ được cập nhật sau khi Luật giao dịch điện tử số 20/2023/QH15 có hiệu lực thi hành từ ngày 01/7/2024)
+2 | Nghị định số 130/2018/NĐ-CP của Chính phủ | 27/09/2018 | Quy định chi tiết thi hành luật giao dịch điện tử về chữ ký số và dịch vụ chứng thực chữ ký số
+3 | Nghị định số 47/2020/NĐ-CP của Chính phủ | 09/04/2020 | Quản lý, kết nối và chia sẻ dữ liệu số của cơ quan nhà nước
+4 | Nghị định số 13/2023/NĐ-CP của Chính phủ | 17/04/2023 | Bảo vệ dữ liệu cá nhân
+5 | Nghị định số 85/2016/NĐ-CP của Chính phủ | 01/7/2016 | Về bảo đảm an toàn hệ thống thông tin theo cấp độ
+6 | Thông tư số 12/2022/TT-BTTTT của Bộ Thông tin và truyền thông | 12/08/2022 | Quy định chi tiết và hướng dẫn một số điều của Nghị định số 85/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về bảo đảm an toàn hệ thống thông tin theo cấp độ
+7 | Thông tư số 41/2017/TT-BTTTT của Bộ Thông tin và truyền thông | 19/12/2017 | Quy định sử dụng chữ ký số cho văn bản điện tử trong cơ quan nhà nước.
+8 | Thông tư số 27/2020/TT-BGDĐT của Bộ Giáo dục và đào tạo | 04/9/2020 | Quy định đánh giá học sinh tiểu học
+9 | Thông tư số 42/2021/TT-BGDĐT của Bộ Giáo dục và đào tạo | 30/12/2021 | Quy định về cơ sở dữ liệu giáo dục và đào tạo
+10 | Quyết định số 4998/QĐ-BGDĐT của Bộ Giáo dục và đào tạo | 31/12/2021 | Quy định kỹ thuật về dữ liệu của cơ sở dữ liệu giáo dục và đào tạo
+---END_TABLE---
+3. Thuật ngữ và định nghĩa
+---START_TABLE---
+STT | Thuật ngữ/định nghĩa | Mô tả
+1. | GDĐT | Giáo dục và đào tạo
+2. | CSGD | Cơ sở giáo dục
+3. | HBS | Học bạ số
+4. | CCCD | Căn cước công dân
+5. | CBQL | Cán bộ quản lý
+6. | GVCN | Giáo viên chủ nhiệm
+7. | GVBM | Giáo viên bộ môn
+8. | UUID | Universal Unique Identifier
+9. | XML | Extensible Markup Language
+---END_TABLE---
+4. Mô hình kỹ thuật triển khai học bạ số
+4.1. Mô hình tổng quát
+Mô hình tổng quát các bên tham gia tạo lập, quản lý và sử dụng học bạ số như sau:
+[Sơ đồ: Mô hình tổng quát các bên tham gia tạo lập, quản lý và sử dụng học bạ số, thể hiện luồng dữ liệu từ ""Cơ sở giáo dục"" -> ""Sở GDĐT"" -> ""BỘ GDĐT"" -> ""Chia sẻ/Khai thác sử dụng"" (bao gồm Cổng tra cứu học bạ quốc gia, CSDL QG Dân cư, Ứng dụng VNeID, và các ứng dụng khác).]
+Trong đó:
+Các cơ sở giáo dục sử dụng phần mềm quản trị nhà trường (đã đáp ứng các yêu cầu triển khai học bạ số của Bộ) để tạo lập, quản lý và khai thác sử dụng học bạ số ở nhà trường; đến thời hạn báo cáo học bạ số, nhà trường báo cáo đầy đủ học bạ số lên Cổng tiếp nhận học bạ số (CSDL học bạ số của tỉnh / thành phố) do Sở GDĐT quản lý.
+Sở GDĐT thí điểm Cổng tiếp nhận học bạ số để tiếp nhận, quản lý học bạ số (trong phạm vi địa phương) – đây là CSDL gốc về học bạ số, và báo cáo học bạ số về Bộ GDĐT để phục vụ quản lý nhà nước ở trung ương. Sở GDĐT quy định các nhiệm vụ tham gia của các Phòng GDĐT trên Cổng tiếp nhận học bạ số của mình.
+Bộ GDĐT nâng cấp CSDL ngành giáo dục để tiếp nhận báo cáo học bạ số từ các Sở gửi về để phục vụ các nghiệp vụ quản lý ở trung ương, trong đó có việc chia sẻ khai thác sử dụng học bạ số như là: Kết nối CSDL ngành giáo dục với CSDL quốc gia về dân cư, triển khai Cổng tra cứu học bạ quốc gia, phối hợp thí điểm cung cấp thông tin trên ứng dụng VNeID và các ứng dụng khác theo quy định.
+4.2. Yêu cầu học bạ số đối với phần mềm quản trị nhà trường
+Ngoài việc đáp ứng theo yêu cầu ứng dụng CNTT, chuyển đổi số trong quản trị nhà trường theo hướng dẫn của Bộ, theo nhu cầu của nhà trường, để triển khai thí điểm học bạ số, phần mềm quản trị nhà trường cần đáp ứng một số yêu cầu như sau:
+Về chức năng:
+Cho phép nhà trường tạo lập học bạ số:
+Cho phép nhập dữ liệu liên quan đến học bạ
+Cho phép xuất bản, in học bạ theo mẫu của Bộ
+Học bạ số trước khi phát hành phải có ký số của Hiệu trưởng và ký số của cơ sở giáo dục. Hiệu trưởng quy định và thực hiện quy chế nội bộ về nhập dữ liệu, xác thực nội bộ trong xây dựng tạo lập học bạ số theo thẩm quyền
+Cho phép kết nối và báo cáo dữ liệu học bạ số lên Cổng tiếp nhận học bạ số của tỉnh / thành phố; Thực hiện các thao tác thu hồi, thay thế học bạ số với Cổng tiếp nhận học bạ số.
+Cho phép quản lý, lưu trữ và khai thác sử dụng học bạ số theo thẩm quyền của nhà trường
+Về kỹ thuật:
+Các chức năng tạo lập, quản lý, sử dụng học bạ số được xây dựng trên cơ sở phần mềm quản trị nhà trường hiện hành;
+Phần mềm phải đáp ứng các yêu cầu trong tài liệu kỹ thuật đặc tả học bạ số thí điểm bậc tiểu học của Bộ;
+Hệ thống thông tin phải đảm bảo ATTT theo cấp độ được quy định, hướng dẫn tại Thông tư số 12/2022/TT-BTTTT Quy định chi tiết và hướng dẫn một số điều của Nghị định số 85/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về bảo đảm an toàn hệ thống thông tin theo cấp độ và đảm bảo các quy định về bảo vệ, quản lý, sử dụng dữ liệu cá nhân.
+Đáp ứng chuẩn dữ liệu, kết nối và trao đổi dữ liệu theo quy định thống nhất của Bộ (do Cục Công nghệ thông tin và Vụ Giáo dục Tiểu học kiểm tra, đánh giá).
+4.3. Yêu cầu học bạ số đối với Cổng tiếp nhận học bạ số
+Cổng tiếp nhận học bạ số (ở các tỉnh/thành phố trực thuộc trung ương) cần đáp ứng các yêu cầu sau:
+Mục đích: Cổng tiếp nhận học bạ số do Sở GDĐT quản lý nhằm tiếp nhận và quản lý học bạ số ở các tỉnh / thành phố. Dữ liệu học bạ số trong Cổng tiếp nhận này là dữ liệu gốc.
+Yêu cầu chức năng:
+Tiếp nhận học bạ số: cho phép phần mềm quản trị nhà trường trên địa bàn kết nối, chia sẻ dữ liệu (báo cáo) về học bạ số theo quy định.
+Cho phép cơ sở giáo dục thu hồi và thay thế học bạ số trong thời hạn cho phép (khi chưa chốt học bạ số).
+Cho phép quản lý, lưu trữ và khai thác sử dụng theo thẩm quyền (cung cấp các chức năng để Phòng GDĐT và các Phòng/Ban chức năng của Sở GDĐT tham gia quản lý học bạ số theo thẩm quyền).
+Cho phép kết nối và báo cáo dữ liệu học bạ số của địa phương lên Kho học bạ số của Bộ.
+Về kỹ thuật:
+Phần mềm đáp ứng các yêu cầu trong tài liệu kỹ thuật đặc tả học bạ số thí điểm bậc tiểu học của Bộ;
+Hệ thống thông tin phải đảm bảo ATTT theo cấp độ được quy định, hướng dẫn tại Thông tư số 12/2022/TT-BTTTT Quy định chi tiết và hướng dẫn một số điều của Nghị định số 85/2016/NĐ-CP ngày 01/7/2016 của Chính phủ về bảo đảm an toàn hệ thống thông tin theo cấp độ và đảm bảo các quy định về bảo vệ, quản lý, sử dụng dữ liệu cá nhân.
+Đáp ứng chuẩn dữ liệu, kết nối và trao đổi dữ liệu theo quy định thống nhất của Bộ (do Cục Công nghệ thông tin và Vụ Giáo dục Tiểu học kiểm tra, đánh giá), bảo đảm thuận tiện trong việc kết nối giữa phần mềm quản trị nhà trường (của các nhà cung cấp khác nhau) với Cổng tiếp nhận học bạ số.
+Việc triển khai Cổng tiếp nhận học bạ số ở địa phương cần tận dụng hạ tầng kết nối, hạ tầng CSDL hiện có ở địa phương để đảm bảo tính hiệu quả và tiết kiệm nguồn lực.
+II. Quy định về định dạng dữ liệu học bạ số
+1. Quy định chung về các thành phần dữ liệu học bạ số
+1.1 Quy định về thẻ XML
+Có 02 loại thẻ được sử dụng để biểu diễn dữ liệu: thẻ phức (thẻ chỉ chứa các thẻ con) (ví dụ: <THONG_TIN_CHUNG> <MA_HOC_SINH> </MA_HOC_SINH> </THONG_TIN_CHUNG>), thẻ đơn (thẻ chỉ chứa dữ liệu) (ví dụ: <Ten>Nguyen Van A</Ten>).
+Tên thẻ được viết không dấu, được viết theo quy tắc sau:
+Thông tin chữ ký số theo quy định Tiêu chuẩn về chữ ký số (Thông tư số 41/2017/TT-BTTTT);
+Các trường thông tin khác được viết hoa, mỗi từ sẽ ngăn cách nhau bằng ký tự gạch dưới “_”. Ví dụ: Tên trường - TEN_TRUONG; Mã học sinh - MA_HOC_SINH.
+1.2 Quy định về biểu diễn dữ liệu
+Dữ liệu được đặt trong phần nội dung của thẻ (ví dụ: <HO_VA_TEN>Nguyen Van A</HO_VA_TEN>), trong một số trường hợp có thể đưa vào phần thuộc tính của thẻ đó (ví dụ: <HOC_BA id=""123456789""/>).
+Tiêu chuẩn trình diễn bộ ký tự (Encoding): UTF-8.
+Tiêu chuẩn về bộ ký tự và mã hóa cho tiếng Việt: TCVN 6909:2001.
+1.3 Quy định về định dạng dữ liệu
+Muốn biểu diễn một thẻ có giá trị Null thì không đưa cặp thẻ vào trong cấu trúc XML.
+Định dạng số: Cho phép tối đa 4 chữ số phần thập phân. Sử dụng dấu chấm (dấu .) để phân tách phần nguyên và phần thập phân (nếu có).
+Định dạng ngày tháng, thời gian: YYYY-MM-DDThh:mm:ssTZD.
+Ví dụ: 2019-04-24T18:39:30+07:00
+Mô tả:
+YYYY = 4 số chỉ năm (2019 = năm 2019)
+MM = 2 số chỉ tháng (04=Tháng 4)
+DD = 2 số chỉ ngày của tháng (24 = ngày 24)
+hh = 2 số chỉ giờ (Từ 00 tới 23) (không sử dụng am/pm)
+mm = 2 số chỉ phút (00 tới 59) (39)
+ss = 2 số chỉ giây (00 tới 59) (30)
+TZD = chỉ time zone (Z hoặc +hh:mm hoặc -hh:mm)
+1.4 Quy định về Mã số tra cứu học bạ
+Mã số tra cứu học bạ là một số duy nhất UUID (Universal Unique Identifier – Mã số định danh duy nhất) có độ dài 32 ký tự chữ và 4 ký tự gạch ngang. Ví dụ: 123e4567-e89b-42d3-a456-556642440000.
+UUID là mã định danh, gắn liền với đơn vị học bạ. Trong trường hợp thu hồi để thay thế, đơn vị học bạ mới sẽ không sử dụng lại mã số UUID của đơn vị học bạ bị thu hồi.
+Sử dụng chuẩn thư viện UUID v4.
+1.5 Quy định về định dạng học bạ số
+Một học bạ số theo chuẩn XML có cấu trúc thành phần như sau:
+[Hình ảnh: Sơ đồ cây mô tả cấu trúc XML của thẻ <HOC_BA>, bao gồm các thẻ con chính: <DU_LIEU_HOC_BA> và <DANH_SACH_THONG_TIN_KY>]
+Hình 01: Mô tả định dạng dữ liệu file học bạ số XML
+Trong đó các thành phần dữ liệu như sau
+Thẻ <HOC_BA> chứa toàn bộ dữ liệu của một học bạ số
+Bên trong thẻ <HOC_BA> được tổ chức thành các thành phần
+Thẻ <DU_LIEU_HOC_BA>: Toàn bộ dữ liệu về học bạ số do CSGD tạo lập.
+Thẻ <DANH_SACH_THONG_TIN_KY>: Danh sách chữ ký số của giáo viên chủ nhiệm lớp học, chữ ký số hiệu trưởng nhà trường, chữ ký số của cơ sở giáo dục
+Thẻ <GVCN>: Thông tin về chữ ký số của giáo viên chủ nhiệm lớp.
+Thẻ <CBQL>: Thông tin về chữ ký số của hiệu trưởng nhà trường.
+Thẻ <KY_PHAT_HANH>: Thông tin về chữ ký số (tổ chức) của cơ sở giáo dục.
+Vùng ký sẽ nằm ở 1 node riêng trong file xml học bạ số, không nằm trong vùng dữ liệu học bạ.
+Bên trong thẻ <DU_LIEU_HOC_BA> gồm 3 phần chính:
+Thẻ <THONG_TIN_CHUNG>: Chứa các thông tin về học sinh, nhà trường, Mã số tra cứu học bạ. Khi in học bạ nhiều năm học, thông tin thể hiện trên bìa học bạ được lấy theo học bạ của năm học mới nhất.
+Thẻ <QUA_TRINH_HOC_TAP>: Thông tin về các năm học của học sinh.
+Thẻ <TONG_KET>: Thông tin về kết quả học tập của học sinh trong năm học gần nhất.
+Chi tiết về mô tả tên thẻ, nội dung, dữ liệu các thẻ thành phần và quy cách biểu diễn hiển thị nội dung học bạ được quy định theo từng bậc học, đối với bậc tiểu học được quy định căn cứ theo Thông tư số 27/2020/TT-BGDĐT (xem trong Phụ lục 01- Cấu trúc học bạ số bậc Tiểu học).
+Mẫu hiển thị đơn vị học bạ số (01 năm học) được minh họa trong file đính kèm trong Phụ lục 01- Cấu trúc học bạ số bậc Tiểu học.
+1.6 Quy định về chữ ký số
+Chữ ký số được sử dụng là chữ ký điện tử an toàn đáp ứng quy định tại Luật giao dịch điện tử số 51/2005/QH11 ngày 29/11/2005; Nghị định số 130/2018/NĐ-CP ngày 27/9/2018 quy định chi tiết thi hành Luật giao dịch điện tử về chữ ký số và dịch vụ chứng thực chữ ký số và các văn bản hướng dẫn. Chữ ký số được đặc tả theo chuẩn XML Signature Syntax and Processing quy định tại Thông tư số 39/2017/TT-BTTTT ngày 15/12/2017 của Bộ Thông tin và Truyền thông ban hành danh mục tiêu chuẩn kỹ thuật về ứng dụng công nghệ thông tin trong cơ quan nhà nước và Thông tư số 22/2020/TT-BTTTT ngày 07/9/2020 của Bộ thông tin và Truyền thông quy định về yêu cầu kỹ thuật đối với phần mềm ký số, phần mềm kiểm tra chữ ký số.
+Vùng dữ liệu chữ ký số chứa thông tin thời điểm ký số (thẻ SigningTime, được đặt trong thẻ Signature\Object\SignatureProperties\SignatureProperty). Thẻ SigningTime có kiểu dữ liệu là ngày giờ theo quy định tại điểm b, Khoản 2, Mục IV, Phần I quy định này.
+Sử dụng thuộc tính URI của các thẻ Reference của chuẩn XML Signature Syntax and Processing để xác định các vùng dữ liệu cần ký số đối với từng loại dữ liệu bao gồm cả thời điểm ký số.
+Chữ ký số cần đính kèm chứng thư số (thẻ X509SubjectName và thẻ X509Certificate).
+2. Quy định về giao dịch truyền nhận
+2.1 Danh sách các loại giao dịch
+---START_TABLE---
+STT | Mã loại giao dịch | Tên | Mô tả
+1. | 1 | Giao dịch gửi yêu cầu nộp báo cáo dữ liệu học bạ số | Sử dụng để đóng gói dữ liệu học bạ số từ phần mềm quản trị nhà trường của CSGD lên Cổng tiếp nhận học bạ số ở địa phương và từ Cổng tiếp nhận học bạ số gửi lên Kho học bạ số Bộ GDĐT.
+2. | 2 | Giao dịch truy vấn kết quả phát hành học bạ số | Sử dụng để CSGD và Sở GDĐT kiểm tra trạng thái xử lý của yêu cầu nộp phát hành học bạ số.
+3. | 3 | Giao dịch đăng ký chứng thư số | Sử dụng để đăng ký chứng thư số (CSGD đăng ký với Sở GDĐT; Sở GDĐT đăng ký với Bộ GDĐT) phục vụ quản lý, xác thực giao dịch
+4. | 4 | Giao dịch truy vấn kết quả đăng ký chứng thư số | Sử dụng để CSGD và Sở GDĐT kiểm tra trạng thái xử lý đăng ký chứng thư số
+5. | 5 | Giao dịch gửi yêu cầu thu hồi dữ liệu học bạ số | Sử dụng để CSGD và Sở GDĐT gửi yêu cầu thu hồi dữ liệu học bạ số lên Kho học bạ số Bộ GDĐT
+6. | 6 | Giao dịch truy vấn kết quả thu hồi dữ liệu học bạ số | Sử dụng để CSGD và Sở GDĐT kiểm tra trạng thái xử lý của yêu cầu yêu cầu thu hồi dữ liệu học bạ số
+---END_TABLE---
+2.2 Định dạng dữ liệu giao dịch gửi yêu cầu nộp báo cáo dữ liệu học bạ số
+Để gửi thông tin giao dịch yêu cầu nộp báo cáo dữ liệu học bạ số từ phần mềm quản trị nhà trường của CSGD lên Cổng tiếp nhận học bạ số ở địa phương và từ các Cổng tiếp nhận học bạ số ở địa phương lên Kho học bạ số Bộ GDĐT, các giao dịch cần phải tuân thủ quy định thống nhất về định dạng dữ liệu giao dịch truyền nhận.
+Đặc tả dữ liệu đầu vào của giao dịch được mô tả theo bảng dưới đây:
+[Hình ảnh: Sơ đồ cấu trúc dữ liệu đầu vào của giao dịch nộp dữ liệu học bạ.]
+Hình 02: Mô tả cấu trúc dữ liệu đầu vào của giao dịch nộp dữ liệu học bạ
+Thông tin của đơn vị giao dịch được bao trong object {authenticationRequest}. Chi tiết như sau:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| token | Đoạn mã bảo mật để xác thực phiên giao dịch | String | Bắt buộc |
+| user_name | Thông tin tài khoản được cấp của đơn vị | String | Bắt buộc |
+| password | Mật khẩu của đơn vị (sử dụng hàm băm SHA256) | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị | String | Bắt buộc |
+| nam_hoc | Năm học | Number | Bắt buộc |
+| messageid | ID gói tin | String | Bắt buộc |
+| type | Loại gói tin | String | Bắt buộc |
+| function | Mã chức năng | String | Bắt buộc |
+Thông tin dữ liệu học bạ số được nén và đóng gói trong tham số “content”. Chi tiết như sau:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| content | Đoạn chuỗi mã hoá dữ liệu học bạ số | String | Bắt buộc |
+Mô tả chi tiết tham số “content”: Là đoạn chuỗi mã hoá dữ liệu của danh sách học bạ số:
+Mỗi học bạ chứa dữ liệu được quy định trong mục 1.5 Quy định về định dạng học bạ số.
+Danh sách học bạ số được nối với nhau trong 1 file xml. Thẻ gốc <DANH_SACH_HOC_BA>, chứa danh sách học bạ.
+Dữ liệu file xml này được xử lý ""escape quote”, sau đó nén lại theo hàm mã hoá dữ liệu (trong Phụ lục 02 - Hướng dẫn hàm mã hoá dữ liệu truyền nhận).
+“Signature” là chữ ký số của tổ chức (CSGD/Sở GDĐT) – dùng để ký xác nhận điện tử mỗi giao dịch nộp học bạ.
+[Hình ảnh: Sơ đồ mô tả định dạng file xml chứa danh sách học bạ số.]
+Hình 03: Mô tả định dạng file xml chứa danh sách học bạ số
+Đặc tả dữ liệu đầu ra:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| MessageId | ID gói tin | String | Bắt buộc |
+| Error | Mã lỗi | String | Bắt buộc |
+| ErrorDescription | Tiêu đề mã lỗi | String | Bắt buộc |
+| ResponseCode | Mã phản hồi | String | Bắt buộc |
+| ResponseDescription | Chi tiết phản hồi | String | Bắt buộc |
+2.3 Định dạng dữ liệu giao dịch truy vấn kết quả nộp báo cáo dữ liệu học bạ số
+Đặc tả dữ liệu đầu vào:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | ID gói tin | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị | String | Bắt buộc |
+| type | Mã chức năng | String | Bắt buộc |
+| function | Loại chức năng | String | Bắt buộc |
+Đặc tả dữ liệu đầu ra: Là danh sách trạng thái phê duyệt của từng học bạ số. Chi tiết như sau:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| ma_hoc_sinh | Mã học sinh | String | Bắt buộc |
+| ten_hoc_sinh | Tên học sinh | String | Bắt buộc |
+| so_cccd | Số căn cước công dân | String | Bắt buộc |
+| ma_tra_cuu_uuid | Mã số tra cứu học bạ | String | Bắt buộc |
+| trang_thai | Trạng thái phê duyệt học bạ, 1 – phê duyệt, 0 – từ chối | Number | Bắt buộc |
+| error | Mã lỗi | String | Bắt buộc |
+| error_field_title | Tiêu đề mã lỗi | String | Bắt buộc |
+| error_description | Thông tin lỗi | String | Bắt buộc |
+2.4 Định dạng dữ liệu giao dịch đăng ký chứng thư số
+Đặc tả dữ liệu đầu vào:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | ID của gói tin | String | Bắt buộc |
+| type | Loại gói tin | String | Bắt buộc |
+| function | Mã chức năng | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị - là mã sở theo danh mục do Bộ GDĐT quy định (đang sử dụng trên CSDL ngành) | String | Bắt buộc |
+| serial_number | Serial của chứng thư số | String | Bắt buộc |
+| ngay_hieu_luc | Ngày có hiệu lực của chứng thư số | Date | Bắt buộc |
+| ma_kieu_chu_ky | Mã kiểu chứng thư số | String | Bắt buộc |
+| nha_phat_hanh | Nhà phát hành chứng thư số | String | Bắt buộc |
+Thông tin về chứng thư số kèm theo chữ ký số của CSGD (để đối sánh) được đóng gói trong tham số “content”. Thông tin chi tiết được mô tả tại mục Đăng ký chứng thư số của Sở GDĐT trong Tài liệu mô tả dịch vụ kết nối dữ liệu kèm theo.
+Danh mục “ma_kieu_chu_ky”:
+REMOTE_SIGNING: Chữ ký số Remote Signing
+USB_TOKEN: Chữ ký số USB Token
+Dữ liệu trong danh mục “ma_kieu_chu_ky” sẽ có thể được bổ sung điều chỉnh thêm. Bộ sẽ cung cấp API trả về danh mục kiểu chữ ký số được mô tả trong Tài liệu mô tả dịch vụ kết nối dữ liệu kèm theo.
+Danh mục “nha_phat_hanh"" nhà cung cấp chứng thư số được bộ thông tin truyền thông cấp phép VD:
+VNPT: Nhà phát hành VNPT SMART CA
+BKAV: Nhà phát hành BKAV
+VIETTEL: Nhà phát hành VIETTEL VIETTEL CA – RS
+BAN_CO_YEU: Chữ ký số của Ban cơ yếu Chính phủ
+Dữ liệu trong danh mục “nha_phat_hanh” sẽ có thể được bổ sung điều chỉnh thêm. Bộ sẽ cung cấp API trả về danh mục nhà cung cấp chữ ký số được mô tả trong Tài liệu mô tả dịch vụ kết nối dữ liệu kèm theo.
+Đặc tả dữ liệu đầu ra:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | ID gói tin | String | Bắt buộc |
+| error | Mã lỗi | String | Bắt buộc |
+| error_filed_title | Tiêu đề mã lỗi | String | Bắt buộc |
+| error_description | Thông tin lỗi | String | Bắt buộc |
+2.5 Định dạng dữ liệu giao dịch truy vấn kết quả đăng ký chứng thư số
+Đặc tả dữ liệu đầu vào:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | Messageld | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị | String | Bắt buộc |
+| ma_nam_hoc | Mã năm học | Number | Bắt buộc |
+Đặc tả dữ liệu đầu ra:
+| Tham số | Tên thẻ | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | MessageId | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị | String | Bắt buộc |
+| serial_number | Serial của chứng thư số | String | Bắt buộc |
+| trang_thai_phe_duyet | Trạng thái phê duyệt của chứng thư số, 1 – phê duyệt, 0 – từ chối | Number | Bắt buộc |
+| error | Mã lỗi | String | Bắt buộc |
+| error_field_title | Tiêu đề mã lỗi | String | Bắt buộc |
+| error_description | Thông tin lỗi | String | Bắt buộc |
+2.6 Định dạng dữ liệu giao dịch gửi yêu cầu thu hồi dữ liệu học bạ số
+Để gửi thông tin giao dịch yêu cầu thu hồi dữ liệu học bạ đã phát hành từ phần mềm quản trị nhà trường của CSGD lên Cổng tiếp nhận học bạ số ở địa phương và từ các Cổng tiếp nhận học bạ số ở địa phương lên Kho học bạ số Bộ GDĐT, các giao dịch cần phải tuân thủ quy định thống nhất về định dạng dữ liệu giao dịch truyền nhận tương tự giao dịch nộp báo cáo được mô tả tại mục 2.2 Định dạng dữ liệu giao dịch gửi yêu cầu nộp báo cáo dữ liệu học bạ số, cụ thể như sau:
+Mô tả chi tiết tham số “content”: Là đoạn chuỗi mã hoá dữ liệu của danh sách thông tin học bạ số cần thu hồi:
+Danh sách thông tin học bạ số cần thu hồi được nối với nhau trong 1 file xml. Thẻ gốc <DANH_SACH_HOC_BA>, chứa danh sách thông tin học bạ.
+Dữ liệu file xml này được xử lý ""escape quote"", sau đó nén lại theo hàm mã hoá dữ liệu (trong Phụ lục 02 - Hướng dẫn hàm mã hoá dữ liệu truyền nhận).
+""Signature"" là chữ ký số của tổ chức (CSGD/Sở GDĐT) – dùng để ký xác nhận điện tử mỗi giao dịch thu hồi học bạ.
+Ví dụ:
+<DANH_SACH_HOC_BA id=""dataDanhSach"">
+<HOC_BA>
+<MA_TRA_CUU_UUID>4ef748d9-2146-4a82-95a5-8534051475f0</MA_TRA_CUU_UUID>
+<HO_VA_TEN>Trương Phương Anh</HO_VA_TEN>
+<GIOI_TINH>Nữ</GIOI_TINH>
+<NGAY_SINH>17/05/2017</NGAY_SINH>
+<SO_CCCD>048317002681</SO_CCCD>
+<TEN_TRUONG>Tiểu học Điện Biên Phủ</TEN_TRUONG>
+<MA_TRUONG>48491401</MA_TRUONG>
+<TEN_NAM_HOC>2023-2024</TEN_NAM_HOC>
+</HOC_BA>
+<HOC_BA>
+</HOC_BA>
+</DANH_SACH_HOC_BA>
+Dữ liệu xml này được xử lý ""escape quote"", sau đó nén lại theo hàm mã hoá dữ liệu (trong Phụ lục 02 - Hướng dẫn hàm mã hoá dữ liệu truyền nhận).
+""Signature"" là chữ ký số của tổ chức (CSGD/Sở GDĐT) – dùng để ký xác nhận điện tử mỗi giao dịch thu hồi học bạ.
+2.7 Định dạng dữ liệu giao dịch truy vấn kết quả thu hồi dữ liệu học bạ số
+Đặc tả dữ liệu đầu vào:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| messageid | ID gói tin | String | Bắt buộc |
+| ma_don_vi | Mã đơn vị | String | Bắt buộc |
+| type | Mã chức năng | String | Bắt buộc |
+| function | Loại chức năng | String | Bắt buộc |
+Đặc tả dữ liệu đầu ra: Là danh sách trạng thái phê duyệt của từng học bạ số. Chi tiết như sau:
+| Tham số | Mô tả | Kiểu dữ liệu | Ràng buộc |
+| :--- | :--- | :--- | :--- |
+| ma_hoc_sinh | Mã học sinh | String | Bắt buộc |
+| ten_hoc_sinh | Tên học sinh | String | Bắt buộc |
+| so_cccd | Số căn cước công dân | String | Bắt buộc |
+| ma_tra_cuu_uuid | Mã số tra cứu học bạ | String | Bắt buộc |
+| trang_thai | Trạng thái thu hồi học bạ, 1 – Chờ xử lý, 2 – Đồng ý thu hồi, 3 - Từ chối thu hồi | Number | Bắt buộc |
+| error | Mã lỗi | String | Bắt buộc |
+| error_field_title | Tiêu đề mã lỗi | String | Bắt buộc |
+| error_description | Thông tin lỗi | String | Bắt buộc |
+2.8 Quy định về dung lượng dữ liệu
+Dung lượng mỗi giao dịch tối đa cho phép là 10MB.
+III. Hướng dẫn tạo lập và phát hành học bạ số tại địa phương
+1. Khai báo và đăng ký chứng thư số của Cơ sở giáo dục
+Các cơ sở giáo dục cần thực hiện việc khai báo và đăng ký chứng thư số (tổ chức) của đơn vị, gửi lên cấp quản lý trực tiếp (Phòng/Sở GDĐT) để kiểm tra và phê duyệt.
+Chứng thư số được cấp quản lý (Phòng/Sở GDĐT) phê duyệt mới có đủ hiệu lực để ký phát hành học bạ tại địa phương.
+Cổng tiếp nhận học bạ số ở địa phương kiểm tra, đối sánh thông tin chữ ký số sử dụng trong giao dịch (thẻ <Signature>) và chữ ký số phát hành (thẻ <KY_PHAT_HANH>) trong từng học bạ số đã phát hành với chứng thư số (tổ chức) đã được phê duyệt để kiểm tra tính hợp lệ của từng giao dịch/từng học bạ số.
+[Sơ đồ: Luồng khai báo và đăng ký chứng thư số của Cơ sở giáo dục.]
+Các bước thực hiện được mô tả trong bảng bên dưới:
+| Bước | Mô tả | Ràng buộc |
+| :--- | :--- | :--- |
+| 1 | Văn thư/quản trị viên CSGD khai báo thông tin chứng thư số của đơn vị trên phần mềm quản lý học bạ số | Chứng thư số của đơn vị. Ký số bằng chứng thư số (tổ chức) của đơn vị |
+| 2 | CSGD gửi đăng ký chứng thư số của đơn vị lên CSDL quản lý học bạ số của cấp Sở/Phòng GDĐT | Chứng thư số của đơn vị sẽ dùng để ký phát hành học bạ |
+| 3 | Sở/Phòng GDĐT kiểm tra thông tin Chứng thư số của đơn vị | Chứng thư số của đơn vị sẽ dùng để ký phát hành học bạ |
+| 4 | Sở/Phòng GDĐT phê duyệt Chứng thư số của đơn vị | Chứng thư số của đơn vị sẽ dùng để ký phát hành học bạ |
+| 5 | CSGD kiểm tra trạng thái phê duyệt, sẵn sàng sử dụng để ký số học bạ | Trạng thái phê duyệt chứng thư số. Chứng thư số của đơn vị |
+2. Tạo lập và phát hành học bạ số
+Học bạ số được tạo lập và phát hành tại các cơ sở giáo dục.
+Sở GDĐT cần có hệ thống API tiếp nhận dữ liệu học bạ số từ các cơ sở giáo dục theo hướng dẫn kỹ thuật của Bộ GDĐT.
+[Sơ đồ: Quy trình tạo lập và phát hành học bạ số tại địa phương.]
+Mô tả chi tiết quy trình tạo lập và phát hành học bạ số tại địa phương:
+
+---START_TABLE---
+Bước | Nội dung | Thực hiện | Chi tiết/Dữ liệu
+1 | Nhà trường xác nhận hoàn thành tổng kết | Văn thư/quản trị viên | Dữ liệu tổng kết của học sinh
+2 | Khởi tạo học bạ số | Văn thư/quản trị viên | Chọn học sinh và thực hiện khởi tạo học bạ số
+3 | Kiểm tra dữ liệu học bạ | Giáo viên | Giáo viên thực hiện kiểm tra thông tin học bạ của học sinh được khởi tạo
+4 | Giáo viên ký duyệt | Giáo viên | Giáo viên thực hiện ký duyệt vào học bạ đã khởi tạo
+5 | Cán bộ quản lý nhà trường ký duyệt | Cán bộ quản lý nhà trường | Sau khi giáo viên đã ký duyệt, lãnh đạo nhà trường thực hiện ký duyệt học bạ số của học sinh.
+6 | Kiểm tra trạng thái phê duyệt chứng thư số của CSGD | Văn thư/quản trị viên | Chứng thư số của CSGD dùng để ký phát hành học bạ cần được đăng ký và phê duyệt từ đơn vị quản lý trực tiếp (Phòng/Sở GDĐT)
+7 | Ký số phát hành | Văn thư/quản trị viên | Ký số phát hành học bạ. Đây là chữ ký số (tổ chức) của cơ sở giáo dục. Tham khảo mục 4.5 quy định về danh sách chữ ký số trong file học bạ số.
+8 | Xác nhận hoàn thành và gửi dữ liệu lên CSDL | Văn thư/quản trị viên | Xác nhận hoàn thành học bạ số và gửi dữ liệu học bạ số lên Cổng tiếp nhận học bạ do Sở GDĐT quản lý
+9 | Tiếp nhận học bạ số | Sở GDĐT | Sở GDĐT tiếp nhận học bạ số từ các CSGD. Lưu trữ trên Cổng tiếp nhận học bạ
+10 | Lưu hành học bạ số | Sở GDĐT | Sở GDĐT lưu hành học bạ số trên CSDL quản lý học bạ của địa phương
+11 | Kiểm tra dữ liệu học bạ số được phát hành | Văn thư/quản trị viên | Kiểm tra dữ liệu học bạ số được phát hành
+---END_TABLE---
+3. Thu hồi học bạ số
+Các cơ sở giáo dục có trách nhiệm khởi tạo học bạ số và nộp dữ liệu (bằng kết nối API) về Cổng tiếp nhận học bạ số ở địa phương theo thời gian quy định của Bộ GDĐT và của Sở GDĐT. Sau khi nộp dữ liệu, nếu phát hiện có sai sót, học bạ cần thu hồi sẽ áp dụng theo luồng thu hồi học bạ số từ các CSGD lên Sở/Phòng GDĐT. Chi tiết luồng thu hồi như sau:
+[Sơ đồ: Luồng thu hồi học bạ số.]
+Các bước thực hiện được mô tả trong bảng bên dưới:
+| Bước | Nội dung | Thực hiện | Chi tiết/Dữ liệu |
+| :--- | :--- | :--- | :--- |
+| 1 | Cơ sở giáo dục lập danh sách học bạ số cần thu hồi | CSGD | Danh sách mã học bạ |
+| 2 | Gửi yêu cầu thu hồi học bạ số lên Cổng tiếp nhận học bạ số của Sở/Phòng GDĐT | CSGD | Danh sách học bạ số |
+| 3 | Sở/Phòng GDĐT tiếp nhận yêu cầu, thực hiện kiểm tra xác minh | Sở/Phòng GDĐT | Danh sách học bạ số |
+| 4 | Sở/Phòng GDĐT phê duyệt yêu cầu thu hồi học bạ | Sở/Phòng GDĐT | Danh sách học bạ số |
+| 5 | Kiểm tra trạng thái phê duyệt thu hồi học bạ số | CSGD | Danh sách học bạ |
+| 6 | CSGD thực hiện khởi tạo lại các học bạ, sau đó tiến hành gửi lại học bạ mới. | CSGD | Danh sách học bạ |
+4. Khai thác học bạ số tại địa phương
+Sở GDĐT ban hành hướng dẫn quy định khai thác học bạ số tại địa phương.
+Phân quyền các cán bộ, các đơn vị phòng/trường được phép truy cập Cổng tiếp nhận học bạ số.
+Sở GDĐT quản lý học bạ số tại địa phương theo quy định chung của Bộ (tại mục II.1. Quy định chung về các thành phần dữ liệu học bạ số), trong đó cung cấp API chia sẻ thông tin học bạ phục vụ giải quyết thủ tục hành chính liên quan tới học sinh như chuyển trường, tuyển sinh đầu cấp,.. (thông tin học bạ chia sẻ từ tỉnh này với tỉnh khác thông qua hệ thống đầu mối (Hub) của Bộ. Chi tiết mô hình và API chia sẻ được mô tả trong các phiên bản tài liệu tiếp theo). Chuẩn trao đổi, kết nối giữa hệ thống quản trị nhà trường của cơ sở giáo dục với Cổng tiếp nhận học bạ của địa phương do địa phương quy định (trên cơ sở các quy định thống nhất của Bộ GDĐT tại mục II. Quy định về định dạng dữ liệu học bạ số).
+Học bạ số có thể được khai thác sử dụng cho các nghiệp vụ:
+Chuyển trường học sinh
+Tuyển sinh đầu cấp
+Tra cứu, xác thực thông tin học bạ
+IV. Mô hình luồng giao dịch với Kho học bạ số Bộ GDĐT
+Sở GDĐT có trách nhiệm triển khai Cổng tiếp nhận học bạ số (đây là CSDL gốc về quản lý học bạ).
+Sở GDĐT báo cáo toàn bộ dữ liệu về học bạ số về Bộ GDĐT theo thời hạn quy định.
+Các giao dịch báo cáo dữ liệu học bạ số cần được ký số giao dịch để đảm bảo bảo mật và lưu vết báo cáo. Sở GDĐT có nhiệm vụ đăng ký chứng thư số của đơn vị lên Kho học bạ số Bộ GDĐT (CSDL ngành).
+[Sơ đồ: Mô hình luồng giao dịch với Kho học bạ số Bộ GDĐT.]
+1. Mô hình luồng đăng ký chứng thư số
+Các Sở GDĐT cần thực hiện khai báo và đăng ký chứng thư số của đơn vị lên Bộ GDĐT để kiểm tra và phê duyệt. Chứng thư số của Sở GDĐT sẽ dùng để ký xác thực điện tử cho mỗi giao dịch nộp dữ liệu học bạ số từ Sở về kho của Bộ GDĐT.
+[Sơ đồ: Luồng gửi đăng ký chứng thư số.]
+Các bước thực hiện được mô tả trong bảng bên dưới:
+| Bước | Nội dung | Chi tiết/Dữ liệu |
+| :--- | :--- | :--- |
+| 1 | Sở GDĐT nhập thông tin chứng thư số | Thông tin chứng thư số của Sở GDĐT |
+| 2 | Gửi yêu cầu đăng ký chứng thư số | Thông tin tài khoản của Sở GDĐT. Thông tin chứng thư số |
+| 3 | Kho học bạ số Bộ GDĐT tiếp nhận yêu cầu xử lý | Thông tin tài khoản của Sở GDĐT. Thông tin chữ ký số giao dịch |
+| 4 | Kho học bạ số Bộ GDĐT phản hồi thông báo tiếp nhận yêu cầu cho Sở GDĐT | ID gói tin. Mã lỗi tiếp nhận |
+| 5 | Sở GDĐT truy vấn trạng thái xử lý đăng ký chứng thư số | ID của gói tin |
+| 6 | Kho học bạ số Bộ GDĐT kiểm tra thông tin truy vấn trạng thái phê duyệt chứng thư số | ID gói tin. Trạng thái phê duyệt chứng thư số |
+| 7 | Kho học bạ số Bộ GDĐT phản hồi thông tin trạng thái phê duyệt chứng thư số | ID gói tin. Trạng thái phê duyệt chứng thư số |
+2. Mô hình luồng nộp báo cáo dữ liệu học bạ số
+[Sơ đồ: Luồng gửi yêu cầu nộp báo cáo dữ liệu học bạ số.]
+Các bước thực hiện được mô tả trong bảng bên dưới:
+| Bước | Nội dung | Chi tiết/Dữ liệu |
+| :--- | :--- | :--- |
+| 1 | Sở GDĐT xây dựng Cổng tiếp nhận học bạ số của địa phương, cho phép tiếp nhận, quản lý báo cáo dữ liệu học bạ từ các CSGD trên địa bàn | Thông tin chung học sinh. Thông tin quá trình học tập. Thông tin kết quả tổng kết. Chữ ký số của GVCN, CBQL, Nhà trường |
+| 2 | Gửi yêu cầu nộp báo cáo dữ liệu học bạ số từ Sở GDĐT lên kho của Bộ GDĐT | Thông tin tài khoản của Sở GDĐT. Thông tin chữ ký số giao dịch. Danh sách học bạ số. Đặc tả chi tiết dữ liệu đầu vào tại mục II.2.2 |
+| 3 | Kho học bạ số Bộ GDĐT tiếp nhận yêu cầu xử lý | Thông tin tài khoản của Sở GDĐT. Thông tin chữ ký số giao dịch. Danh sách học bạ số |
+| 4 | Kho học bạ số Bộ GDĐT phản hồi thông báo tiếp nhận yêu cầu cho Sở GDĐT | ID gói tin. Mã lỗi tiếp nhận |
+| 5 | Sở GDĐT truy vấn trạng thái xử lý lưu hành học bạ số | ID của gói tin |
+| 6 | Kho học bạ số Bộ GDĐT kiểm tra thông tin truy vấn trạng thái các mã học bạ | Danh sách học bạ. Trạng thái xử lý phát hành thành công/không thành công |
+| 7 | Kho học bạ số Bộ GDĐT phản hồi thông tin trạng thái phát hành các học bạ | Danh sách học bạ. Trạng thái xử lý phát hành thành công/không thành công |
+3. Mô hình luồng thu hồi tại Kho học bạ số Bộ GDĐT
+Trong trường hợp phát hiện có sai sót sau khi Sở GDĐT đã nộp báo cáo dữ liệu học bạ về Kho học bạ số Bộ GDĐT, cơ sở giáo dục và Sở GDĐT cần thực hiện thu hồi theo quy trình sau đây:
+[Sơ đồ: Luồng thu hồi tại Kho học bạ số Bộ GDĐT.]
+---START_TABLE---
+Bước | Nội dung | Thực hiện | Chi tiết/Dữ liệu
+1 | Cơ sở giáo dục lập danh sách học bạ số cần thu hồi | CSGD | Danh sách mã học bạ
+2 | Gửi yêu cầu thu hồi học bạ số lên Cổng tiếp nhận học bạ số của địa phương | CSGD | Danh sách học bạ số
+3 | Sở/Phòng GDĐT tiếp nhận yêu cầu, thực hiện kiểm tra xác minh | Sở GDĐT | Danh sách học bạ số
+4 | Sở/Phòng GDĐT phê duyệt yêu cầu thu hồi học bạ tại Cổng tiếp nhận học bạ số của địa phương. Gửi yêu cầu thu hồi lên Bộ GDĐT | Sở GDĐT | Danh sách học bạ số
+5 | Bộ GDĐT tiếp nhận yêu cầu, thực hiện kiểm tra xác minh | Bộ GDĐT | Danh sách học bạ số
+6 | Bộ GDĐT phê duyệt, thu hồi học bạ trên Kho học bạ số Bộ GDĐT | Bộ GDĐT | Danh sách học bạ
+7 | Sở/Phòng GDĐT tiếp nhận trạng thái phê duyệt từ Bộ | Sở GDĐT | Danh sách học bạ
+8 | Kiểm tra trạng thái phê duyệt thu hồi học bạ số | CSGD | Danh sách học bạ
+9 | CSGD thực hiện khởi tạo lại các học bạ và gửi lại file học bạ mới | CSGD | Danh sách học bạ
+---END_TABLE---
+PHỤ LỤC 1.1 CẤU TRÚC THÔNG TIN HỌC BẠ SỐ BẬC TIỂU HỌC
+---START_TABLE---
+Phân cấp thông tin | Ký hiệu trường dữ liệu | Kiểu dữ liệu | Bắt buộc
+Đối tượng thông tin: Thông tin chung |  |  | 
+Phiên bản | PHIEN_BAN | Chuỗi ký tự String | X
+Thông tư | THONG_TU | Chuỗi ký tự String | X
+Mã số tra cứu học bạ | MA_TRA_CUU_UUID | Chuỗi ký tự String | X
+Tên năm học | TEN_NAM_HOC | Chuỗi ký tự String | X
+Mã sở giáo dục | MA_SO_GIAO_DUC | Chuỗi ký tự String | X
+Tên sở giáo dục | TEN_SO_GD | Chuỗi ký tự String | X
+Mã trường | MA_TRUONG | Chuỗi ký tự String | X
+Tên trường | TEN_TRUONG | Chuỗi ký tự String | X
+Tên quận huyện | TEN_QUAN_HUYEN | Chuỗi ký tự String | X
+Tên xã phường | TEN_XA_PHUONG | Chuỗi ký tự String | X
+Tên tỉnh thành phố | TEN_TINH_THANH_PHO | Chuỗi ký tự String | X
+Mã cấp học | MA_CAP_HOC | Chuỗi ký tự String | X
+Số sổ đăng bộ | SO_SO_DANG_BO | Chuỗi ký tự String | X
+Họ và tên | HO_VA_TEN | Chuỗi ký tự String | X
+Số CCCD | SO_CCCD | Chuỗi ký tự String | X
+Mã học sinh | MA_HOC_SINH | Chuỗi ký tự String | X
+Giới tính | GIOI_TINH | Chuỗi ký tự String | X
+Ngày sinh | NGAY_SINH | Chuỗi ký tự String | X
+Cân nặng | CAN_NANG | Chuỗi ký tự String | X
+Chiều cao | CHIEU_CAO | Chuỗi ký tự String | X
+Tổng số buổi nghỉ có phép | TONG_SO_BUOI_NGHI_CO_PHEP | Số Number | X
+Tổng số buổi nghỉ không phép | THONG_SO_BUOI_NGHI_KHONG_PHEP | Số Number | X
+Nơi sinh | NOI_SINH | Chuỗi ký tự String | X
+Quê quán | QUE_QUAN | Chuỗi ký tự String | X
+Chỗ ở hiện nay | CHO_O_HIEN_NAY | Chuỗi ký tự String | X
+Dân tộc | DAN_TOC | Chuỗi ký tự String | X
+Quốc tịch | QUOC_TICH | Chuỗi ký tự String | X
+Họ và tên cha | HO_VA_TEN_CHA | Chuỗi ký tự String | 
+Họ và tên mẹ | HO_VA_TEN_ME | Chuỗi ký tự String | X
+Họ và tên người giám hộ | HO_VA_TEN_NGUOI_GIAM_HO | Chuỗi ký tự String | 
+Tên giám hiệu ký học bạ | TEN_GIAM_HIEU_KY_HOC_BA | Chuỗi ký tự String | X
+Số CCCD giám hiệu ký học bạ | SO_CCCD_GIAM_HIEU_KY_HOC_BA | Chuỗi ký tự String | X
+Địa danh phát hành học bạ | DIA_DANH_PHAT_HANH_HOC_BA | Chuỗi ký tự String | X
+Ngày tạo học bạ | NGAY_TAO_HOC_BA | Chuỗi ký tự String | X
+Ngày ký phát hành học bạ | NGAY_KY_PHAT_HANH_HOC_BA | Chuỗi ký tự String | X
+Chức vụ giám hiệu ký học bạ | CHUC_VU_GIAM_HIEU_KY_HOC_BA | Chuỗi ký tự String | X
+Tên giáo viên chủ nhiệm | TEN_GIAO_VIEN_CHU_NHIEM | Chuỗi ký tự String | 
+Số CCCD giáo viên chủ nhiệm | SO_CCCD_GIAO_VIEN_CHU_NHIEM | Chuỗi ký tự String | 
+Mã khối | MA_KHOI | Chuỗi ký tự String | X
+Tên lớp | TEN_LOP | Chuỗi ký tự String | X
+Năm học | NAM_HOC | Chuỗi ký tự String | X
+Đối tượng thông tin: Quá trình học tập |  |  | 
+Tên lớp | TEN_LOP | Chuỗi ký tự String | X
+Tên trường | TEN_TRUONG | Chuỗi ký tự String | X
+Ngày trạng thái chuyển đến | NGAY_TRANG_THAI_CHUYEN_DEN | Chuỗi ký tự String | X
+Đối tượng thông tin: Tổng kết |  |  | 
+Kết quả xếp loại | KET_QUA_XEP_LOAI | Chuỗi ký tự String | X
+Được lên lớp | DUOC_LEN_LOP | Chuỗi ký tự String | X
+Nội dung hoàn thành chương trình lớp học | NOI_DUNG_HOAN_THANH_CHUONG_TRINH | Chuỗi ký tự String | 
+Đã hoàn thành chương trình lớp học | DA_HOAN_THANH_CHUONG_TRINH_LOP_HOC | Chuỗi ký tự String | X
+Đã hoàn thành chương trình tiểu học | DA_HOAN_THANH_CHUONG_TRINH_TIEU_HOC | Chuỗi ký tự String | 
+Nội dung khen thưởng | NOI_DUNG_KHEN_THUONG | Chuỗi ký tự String | 
+Nội dung khen thưởng đột xuất | NOI_DUNG_KHEN_THUONG_DOT_XUAT | Chuỗi ký tự String | 
+Nhận xét giáo viên chủ nhiệm | NHAN_XET_GVCN | Chuỗi ký tự String | X
+Đối tượng thông tin: Bảng điểm |  |  | 
+Mã môn học | MA_MON_HOC | Chuỗi ký tự String | X
+Tên môn học | TEN_MON_HOC | Chuỗi ký tự String | X
+Mức đạt được | MUC_DAT_DUOC | Chuỗi ký tự String | X
+Điểm kiểm tra định kỳ | DIEM_KIEM_TRA_DINH_KY | Chuỗi ký tự String | 
+Đối tượng thông tin: Đánh giá năng lực phẩm chất |  |  | 
+Năng lực tự chủ tự học | NANG_LUC_TU_CHU_TU_HOC | Chuỗi ký tự String | X
+Năng lực giao tiếp hợp tác | NANG_LUC_GIAO_TIEP_HOC_TAC | Chuỗi ký tự String | X
+Năng lực giải quyết vấn đề sáng tạo | NANG_LUC_GIAI_QUYET_VAN_DE_SANG_TAO | Chuỗi ký tự String | X
+Năng lực ngôn ngữ | NANG_LUC_NGON_NGU | Chuỗi ký tự String | X
+Năng lực tính toán | NANG_LUC_TINH_TOAN | Chuỗi ký tự String | X
+Năng lực khoa học | NANG_LUC_KHOA_HOC | Chuỗi ký tự String | X
+Năng lực công nghệ | NANG_LUC_CONG_NGHE | Chuỗi ký tự String | 
+Năng lực tin học | NANG_LUC_TIN_HOC | Chuỗi ký tự String | 
+Năng lực thẩm mĩ | NANG_LUC_THAM_MI | Chuỗi ký tự String | X
+Năng lực thể chất | NANG_LUC_THE_CHAT | Chuỗi ký tự String | X
+Phẩm chất yêu nước | PHAM_CHAT_YEU_NUOC | Chuỗi ký tự String | X
+Phẩm chất nhân ái | PHAM_CHAT_NHAN_AI | Chuỗi ký tự String | X
+Phẩm chất chăm chỉ | PHAM_CHAT_CHAM_CHI | Chuỗi ký tự String | X
+Phẩm chất trung thực | PHAM_CHAT_TRUNG_THUC | Chuỗi ký tự String | X
+Phẩm chất trách nhiệm | PHAM_CHAT_TRACH_NHIEM | Chuỗi ký tự String | X
+Nhận xét phẩm chất | NHAN_XET_PHAM_CHAT | Chuỗi ký tự String | X
+Nhận xét năng lực chung | NHAN_XET_NANG_LUC_CHUNG | Chuỗi ký tự String | X
+Nhận xét năng lực đặc thù | NHAN_XET_NANG_LUC_DAC_THU | Chuỗi ký tự String | X
+Đối tượng thông tin: Danh sách thông tin ký |  |  | 
+Giáo viên chủ nhiệm | GVCN | Chuỗi ký tự String | 
+Ngày ký | GVCN/NGAY_KY | Chuỗi ký tự String | 
+Số CCCD | GVCN/SO_CCCD | Chuỗi ký tự String | 
+Cán bộ quản lý | CBQL | Chuỗi ký tự String | X
+Ngày ký | CBQL/NGAY_KY | Chuỗi ký tự String | X
+Số CCCD | CBQL/SO_CCCD | Chuỗi ký tự String | X
+Thông tin ký số phát hành của cơ sở giáo dục | KY_PHAT_HANH |  | X
+Ngày ký | KY_PHAT_HANH/NGAY_KY | Chuỗi ký tự String | X
+Đối tượng thông tin: Thông tin chữ ký số |  |  | 
+Chữ ký số | Signature | Chuỗi ký tự String | X
+Dữ liệu được Ký số và chỉ ra thuật toán được sử dụng trong thành phần SignedInfo. | SignedInfo | Chuỗi ký tự String | X
+Giá trị của chữ ký số, nó được mã hóa ở dạng base64 | SignatureValue | Chuỗi ký tự String | X
+Khóa cho người nhận, thường sử dụng chứng thư số X.509. KeyInfo (thông tin khóa) là một thành phần cho phép người nhận tìm kiếm khóa xác thực chữ ký số. KeyInfo có thể chứa các khóa, các tên, các chứng thư số và các thông tin quản lý khóa công khai. | KeyInfo | Chuỗi ký tự String | X
+ | X509Data | Chuỗi ký tự String | X
+ | X509Certificate | Chuỗi ký tự String | X
+---END_TABLE---
+(*) Ví dụ minh họa học bạ số dưới dạng XML như trong tệp đính kèm dưới đây:
+Spec_v1.0_HocBaKySoXML_07-05.xml Spec_v1.0_HocBaKySoXSLT_07-05.xslt
+(**) Ví dụ minh họa mẫu hiển thị học bạ số tiểu học như trong tệp đính kèm dưới đây:
+Mẫu_Hiển_Thị_Hocba_07-05-24.docx",PhuLuc
+2088/BGDĐT-GDTH-PL1-PHỤ_LỤC_1_2_,PHỤ LỤC 1.2.,"HƯỚNG DẪN HÀM MÃ HOÁ DỮ LIỆU TRUYỀN NHẬN
+/// <summary>
+/// Compresses the string.
+/// </summary>
+/// <param name=""text"">The text.</param>
+/// <returns></returns>
+public static string CompressString(string text)
+{
+    try
+    {
+        byte[] buffer = Encoding.UTF8.GetBytes(text);
+        var memoryStream = new MemoryStream();
+        using (var gZipStream = new GZipStream(memoryStream, CompressionMode.Compress, true))
+        {
+            gZipStream.Write(buffer, 0, buffer.Length);
+        }
+        memoryStream.Position = 0;
+        var compressedData = new byte[memoryStream.Length];
+        memoryStream.Read(compressedData, 0, compressedData.Length);
+        var gZipBuffer = new byte[compressedData.Length + 4];
+        Buffer.BlockCopy(compressedData, 0, gZipBuffer, 4, compressedData.Length);
+        Buffer.BlockCopy(BitConverter.GetBytes(buffer.Length), 0, gZipBuffer, 0, 4);
+        return Convert.ToBase64String(gZipBuffer);
+    }
+    catch
+    {
+        return string.Empty;
+    }
+}
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+Phụ lục 2
+(Kèm theo Công văn số: 2088/BGDĐT-GDTH ngày 08 tháng 5 năm 2024 của Bộ Giáo dục và Đào tạo)
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+HỌC BẠ
+TIỂU HỌC
+Họ và tên học sinh: Nguyễn Văn A
+Lớp: 4A1
+Trường: Tiểu học Quang Trung
+Năm học: 2023 – 2024
+Xã (Phường, Thị trấn): Phường Trần Hưng Đạo
+Huyện (Thành phố, Quận, Thị xã): Quận Hoàn Kiếm
+Tỉnh (Thành phố): Thành phố Hà Nội
+
+HỌC BẠ
+Họ và tên học sinh: Nguyễn Văn A
+Giới tính: Nam
+Ngày, tháng, năm sinh: 15/3/2014
+Dân tộc: Kinh
+Quốc tịch: Việt Nam
+Mã số định danh cá nhân: 123456789
+Nơi sinh: Bệnh viện Bạch Mai
+Quê quán: Phường Trần Hưng Đạo, quận Hoàn Kiếm, thành phố Hà Nội
+Nơi ở hiện nay: SN 23, ngách 7/78, phường Trần Hưng Đạo, quận Hoàn Kiếm, thành phố Hà Nội
+Họ và tên cha: Nguyễn Văn B
+Họ và tên mẹ: Hoàng Thị C
+Người giám hộ (nếu có): ..........................................................................
+Mã số tra cứu học bạ (UUID): ....................................................................
+(Mã tra cứu học bạ UUID sử dụng để tra cứu học bạ số trên cổng tra cứu Học bạ số - Bộ GDĐT).
+Người ký học bạ: ...................................................................................
+Chức vụ của người ký học bạ: ...........................................................
+Ngày ký học bạ: ...................................................................................
+1. Kết quả các môn học và hoạt động giáo dục
+---START_TABLE---
+Môn học và hoạt động giáo dục | Mức đạt được | Điểm kiểm tra | Nhận xét
+Tiếng Việt | Hoàn thành tốt | 9 | Đọc lưu loát, rõ ràng, viết chữ đẹp; tính toán nhanh và biết vận dụng thực hành tính toán vào một số vấn đề trong cuộc sống;
+Toán | Hoàn thành tốt | 10 | 
+Ngoại ngữ 1 Tiếng Anh | Hoàn thành tốt | 9 | Thực hiện chưa thành thạo việc kích hoạt và ra khỏi phần mềm trình chiếu; vẫn cần sự giúp đỡ khi thiết lập và tạo chương trình đơn giản;
+Lịch sử và Địa lí | Hoàn thành tốt | 8 | 
+Khoa học | Hoàn thành tốt | 8 | Khi sử dụng nhạc cụ, đôi lúc chưa thể hiện đúng cao độ, trường độ các bài tập tiết tấu và giai điệu.
+Tin học và Công nghệ (Tin học) | Hoàn thành | 6 | 
+Tin học và Công nghệ (Công nghệ) | Hoàn thành tốt | 9 | 
+Đạo đức | Hoàn thành tốt |  | 
+Tự nhiên và Xã hội |  |  | 
+Giáo dục thể chất | Hoàn thành tốt |  | 
+Nghệ thuật (Âm nhạc) | Hoàn thành |  | 
+Nghệ thuật (Mĩ thuật) | Hoàn thành tốt |  | 
+Hoạt động trải nghiệm | Hoàn thành tốt |  | 
+Tiếng dân tộc |  |  | 
+---END_TABLE---
+2. Nhận xét những phẩm chất chủ yếu
+| Phẩm chất | Mức đạt được | Nhận xét |
+| :--- | :--- | :--- |
+| Yêu nước | Tốt | Đi học đầy đủ, đúng giờ; mạnh dạn trình bày ý kiến cá nhân; biết giữ lời hứa; tôn trọng và biết giúp đỡ mọi người. |
+| Nhân ái | Tốt | |
+| Chăm chỉ | Tốt | |
+| Trung thực | Tốt | |
+| Trách nhiệm | Tốt | |
+3. Những năng lực cốt lõi
+3.1. Những năng lực chung
+| Năng lực | Mức đạt được | Nhận xét |
+| :--- | :--- | :--- |
+| Tự chủ và tự học | Tốt | Thường xuyên ăn mặc gọn gàng; chủ động, phối hợp trong học tập; có khả năng tự học. |
+| Giao tiếp và hợp tác | Tốt | |
+| Giải quyết vấn đề và sáng tạo | Tốt | |
+3.2. Những năng lực đặc thù
+| Năng lực | Mức đạt được | Nhận xét |
+| :--- | :--- | :--- |
+| Ngôn ngữ | Tốt | Sử dụng ngôn ngữ lưu loát trong cuộc sống và học tập; biết tư duy, lập luận và giải quyết được một số vấn đề toán học quen thuộc. Cần tiếp tục rèn luyện một số kỹ năng về tin học và âm nhạc để thành thạo hơn nữa. |
+| Tính toán | Tốt | |
+| Khoa học | Tốt | |
+| Công nghệ | Tốt | |
+| Tin học | Đạt | |
+| Thẩm mĩ | Tốt | |
+| Thể chất | Tốt | |
+4. Đánh giá kết quả giáo dục: Hoàn thành
+5. Khen thưởng: Đạt giải Nhì hội giao lưu An toàn giao thông cấp huyện
+6. Hoàn thành chương trình lớp học/chương trình tiểu học: Hoàn thành chương trình lớp 4; Được lên lớp 5.
+
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+Phụ lục 3
+(Kèm theo Công văn số: 2088/BGDĐT-GDTH ngày 08 tháng 5 năm 2024 của Bộ Giáo dục và Đào tạo)
+
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+TÀI LIỆU MÔ TẢ DỊCH VỤ KẾT NỐI DỮ LIỆU
+HỆ THỐNG KHO HỌC BẠ SỐ
+BỘ GIÁO DỤC VÀ ĐÀO TẠO
+(Phiên bản 1.0, tháng 5.2024)
+Hà Nội, 2024
+
+
+MỤC LỤC
+I. TỔNG QUAN........................................................................................................................... 3
+Mục đích............................................................................................................................... 3
+Yêu cầu................................................................................................................................. 3
+II. CÁC DỊCH VỤ KẾT NỐI....................................................................................................... 3
+Danh sách dịch vụ................................................................................................................. 3
+Cơ chế kết nối các dịch vụ.................................................................................................... 4
+Chi tiết các dịch vụ................................................................................................................ 5
+3.1 Dịch vụ lấy token............................................................................................................... 5
+3.2 Dịch vụ lấy danh mục kiểu chữ ký số.................................................................................. 6
+3.3 Dịch vụ lấy danh mục nhà cung cấp chữ ký số................................................................... 6
+3.4 Đăng ký chứng thư số của Sở GDĐT................................................................................... 7
+3.5 Kiểm tra trạng thái phê duyệt chứng thư số của Sở GDĐT................................................ 9
+3.6 Gửi báo cáo học bạ số........................................................................................................ 11
+3.7 Kiểm tra trạng thái tiếp nhận học bạ số........................................................................... 14
+3.8 Gửi yêu cầu thu hồi học bạ................................................................................................ 16
+3.9 Kiểm tra trạng thái xử lý thu hồi học bạ........................................................................... 18",PhuLuc

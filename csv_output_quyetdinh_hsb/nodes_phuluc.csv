@@ -1,0 +1,503 @@
+phulucId:ID,soPhuLuc,noiDung,:LABEL
+1789/QĐ-SGDĐT-Phụ_lục_I,Phụ lục I,"CƠ SỞ DỮ LIỆU HỆ THỐNG DỮ LIỆU THEO DÕI VÀ ĐÁNH GIÁ  HỌC SINH CẤP TIỂU HỌC NGÀNH GDĐT THÀNH PHỐ HỒ CHÍ MINH
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+Thông tin  chung | Tên năm học  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Mã sở giáo dục  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tên sở giáo dục  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Mã trường  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tên trường  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tên quận huyện  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tên xã phường  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tên tỉnh thành phố  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Mã cấp học  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Số sổ đăng bộ  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Họ và tên  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Mã số định danh cá nhân  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Mã học sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Giới tính  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Ngày sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Cân nặng kỳ 1  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Chiều cao kỳ 1  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Cân nặng kỳ 2  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Chiều cao kỳ 2  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tổng số buổi nghỉ có phép  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Tổng số buổi nghỉ không phép  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Nơi sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Quê quán  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Chỗ ở hiện nay  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Dân tộc  | X | Cơ sở dữ liệu Ngành
+Thông tin  chung | Họ và tên cha  |  | Cơ sở dữ liệu Ngành
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+ | Họ và tên mẹ  | X | Cơ sở dữ liệu Ngành
+ | Họ và tên người giám hộ  |  | Cơ sở dữ liệu Ngành
+ | Tên giáo viên chủ nhiệm  |  | Cơ sở dữ liệu Ngành
+ | Số CCCD giáo viên chủ nhiệm  |  | Cơ sở dữ liệu Ngành
+ | Tên hiệu trưởng  | X  | Cơ sở dữ liệu Ngành
+ | Số CCCD hiệu trưởng ̣ | X  | Cơ sở dữ liệu Ngành
+ | Mã khối  | X | Cơ sở dữ liệu Ngành
+ | Tên lớp  | X | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mã trường  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mã học sinh  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Tên học sinh  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Tên trường  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Tên lớp  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Khối  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Môn học  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Tên giáo viên  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mức đạt được giữa học kỳ 1  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mức đạt được cuối học kỳ 1  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Điểm kiểm tra định kì học kì 1  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mức đạt được giữa học kỳ 2  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mức đạt được cuối học kỳ 2  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Điểm kiểm tra định kì học kì 2  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Mức đạt được cả năm  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Điểm kiểm tra định kì cả năm  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Năng lực tự chủ tự học  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Năng lực giao tiếp hợp tác  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Năng lực giải quyết vấn đề sáng  tạo | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Năng lực ngôn ngữ  | X  | Cơ sở dữ liệu Ngành
+Theo dõi  
+và đánh  
+giá học  
+sinh | Năng lực tính toán  | X  | Cơ sở dữ liệu Ngành
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+ | Năng lực hệ thống quản lý dữ  liệu học | X  | Cơ sở dữ liệu Ngành
+ | Năng lực công nghệ  |  | Cơ sở dữ liệu Ngành
+ | Năng lực tin học  |  | Cơ sở dữ liệu Ngành
+ | Năng lực thẩm mĩ  | X  | Cơ sở dữ liệu Ngành
+ | Năng lực thể chất  | X  | Cơ sở dữ liệu Ngành
+ | Phẩm chất yêu nước  | X  | Cơ sở dữ liệu Ngành
+ | Phẩm chất nhân ái  | X  | Cơ sở dữ liệu Ngành
+ | Phẩm chất chăm chỉ  | X  | Cơ sở dữ liệu Ngành
+ | Phẩm chất trung thực  | X  | Cơ sở dữ liệu Ngành
+ | Phẩm chất trách nhiệm  | X  | Cơ sở dữ liệu Ngành
+ | Khen thưởng  | X  | Cơ sở dữ liệu Ngành
+ | Kết quả xếp loại  | X  | Cơ sở dữ liệu Ngành
+ | Nhận xét  | X  | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Giáo viên bộ môn  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Ngày ký  | X | 
+Danh sách  thông tin  
+ký | Số CCCD  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Giáo viên chủ nhiệm  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Ngày ký  | X | 
+Danh sách  thông tin  
+ký | Số CCCD  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Cán bộ quản lý  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Ngày ký  | X | 
+Danh sách  thông tin  
+ký | Số CCCD  | X | Cơ sở dữ liệu Ngành
+Danh sách  thông tin  
+ký | Thông tin ký số phát hành của  cơ sở giáo dục  | X | 
+Danh sách  thông tin  
+ký | Ngày ký  | X | 
+Thông tin  chữ ký số | Chữ ký số  | X | 
+Thông tin  chữ ký số | Dữ liệu được Ký số và chỉ ra  thuật toán được sử dụng trong  thành phần SignedInfo. | X | 
+Thông tin  chữ ký số | Giá trị của chữ ký số, nó được  mã hóa ở dạng base64  | X | 
+
+
+
+
+4
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+ | Khóa cho người nhận, thường  sử dụng chứng thư số X.509.  KeyInfo (thông tin khóa) là một  thành phần cho phép người  nhận tìm kiếm khóa xác thực  chữ ký số. KeyInfo có thể chứa  các khóa, các tên, các chứng  thư số và các thông tin quản lý  khóa công khai. | X |",PhuLuc
+1789/QĐ-SGDĐT-Phụ_lục_II,Phụ lục II,"CƠ SỞ DỮ LIỆU HỌC BẠ SỐ CẤP TIỂU HỌC NGÀNH GDĐT  THÀNH PHỐ HỒ CHÍ MINH
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc  | Nguồn dữ liệu
+Thông tin  chung | Phiên bản  | X | 
+Thông tin  chung | Thông tư  | X | 
+Thông tin  chung | Mã số tra cứu học bạ  | X  | Hệ thống quản lý dữ liệu học bạ số TP
+Thông tin  chung | Tên năm học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã sở giáo dục  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên sở giáo dục  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã trường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên trường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên quận huyện  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên xã phường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên tỉnh thành phố  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã cấp học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Số sổ đăng bộ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Họ và tên  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã số định danh cá nhân  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã học sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Giới tính  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Ngày sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Cân nặng  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Chiều cao  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tổng số buổi nghỉ có phép | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tổng số buổi nghỉ không phép | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Nơi sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Quê quán  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Chỗ ở hiện nay  | X  | Hệ thống theo dõi và đánh giá học sinh
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc  | Nguồn dữ liệu
+ | Dân tộc  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Quốc tịch  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên cha  |  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên mẹ  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên người giám hộ  |  | Hệ thống theo dõi và đánh giá học sinh
+ | Tên hiệu trưởng ký học  bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Số CCCD hiệu trưởng  ký học bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Địa danh phát hành học  bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Ngày tạo học bạ  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Ngày ký phát hành học  bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Tên giáo viên chủ nhiệm |  | 
+ | Số CCCD giáo viên chủ nhiệm |  | 
+ | Mã khối  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Tên lớp  | X  | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Năm học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Tên lớp  | X  | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Tên trường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Ngày trạng thái chuyển  đến | X  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Kết quả xếp loại  | X  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Được lên lớp  | X  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Nội dung hoàn thành  chương trình lớp học |  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Đã hoàn thành chương  trình lớp học | X  | Hệ thống theo dõi và đánh giá học sinh
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc  | Nguồn dữ liệu
+ | Đã hoàn thành chương  trình tiểu học |  | Hệ thống theo dõi và đánh giá học sinh
+ | Nội dung khen thưởng  |  | Hệ thống theo dõi và đánh giá học sinh
+ | Nội dung khen thưởng  đột xuất |  | Hệ thống theo dõi và đánh giá học sinh
+ | Nhận xét giáo viên chủ nhiệm | X  | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Mã môn học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Tên môn học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Mức đạt được  | X  | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Điểm kiểm tra định kỳ  |  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực tự chủ tự học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực giao tiếp hợp  tác | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực giải quyết vấn  đề sáng tạo | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực ngôn ngữ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực tính toán  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực Hệ thống quản  lý dữ liệua học | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực công nghệ  |  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực tin học  |  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực thẩm mĩ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Năng lực thể chất  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Phẩm chất yêu nước  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Phẩm chất nhân ái  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Phẩm chất chăm chỉ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Phẩm chất trung thực  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Phẩm chất trách nhiệm  | X  | Hệ thống theo dõi và đánh giá học sinh
+Đánh giá năng lực  phẩm chất | Nhận xét phẩm chất  | X  | Hệ thống theo dõi và đánh giá học sinh
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu | Bắt  
+buộc  | Nguồn dữ liệu
+ | Nhận xét năng lực chung  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Nhận xét năng lực đặc  thù | X  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách thông tin  ký | Giáo viên chủ nhiệm  |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách thông tin  ký | Ngày ký  |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách thông tin  ký | Số CCCD  |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách thông tin  ký | Cán bộ quản lý  | X  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách thông tin  ký | Ngày ký  | X | 
+Danh sách thông tin  ký | Số CCCD  | X | 
+Danh sách thông tin  ký | Thông tin ký số phát  hành của cơ sở giáo dục | X | 
+Danh sách thông tin  ký | Ngày ký  | X | 
+Thông tin  chữ ký số | Chữ ký số  | X | 
+Thông tin  chữ ký số | Dữ liệu được Ký số và  chỉ ra thuật toán được sử  dụng trong thành phần  SignedInfo. | X | 
+Thông tin  chữ ký số | Giá trị của chữ ký số, nó  được mã hóa ở dạng  base64 | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng  thư số X.509. KeyInfo  (thông tin khóa) là một  
+thành phần cho phép  người nhận tìm kiếm  khóa xác thực chữ ký số. KeyInfo có thể chứa các  khóa, các tên, các chứng  thư số và các thông tin  quản lý khóa công khai. | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng  thư số X.509. KeyInfo  (thông tin khóa) là một  
+thành phần cho phép  người nhận tìm kiếm  khóa xác thực chữ ký số. KeyInfo có thể chứa các  khóa, các tên, các chứng  thư số và các thông tin  quản lý khóa công khai. | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng  thư số X.509. KeyInfo  (thông tin khóa) là một  
+thành phần cho phép  người nhận tìm kiếm  khóa xác thực chữ ký số. KeyInfo có thể chứa các  khóa, các tên, các chứng  thư số và các thông tin  quản lý khóa công khai. | X |",PhuLuc
+1789/QĐ-SGDĐT-Phụ_lục_III,Phụ lục III,"CƠ SỞ DỮ LIỆU HỆ THỐNG THEO DÕI, ĐÁNH GIÁ HỌC SINH CẤP TRUNG HỌC NGÀNH GDĐT THÀNH PHỐ HỒ CHÍ MINH
+Đối tượng  
+thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+Thông tin  
+chung | Tên năm học  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Mã sở giáo dục  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tên sở giáo dục  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Mã trường  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tên trường  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tên quận huyện  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tên xã phường  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tên tỉnh thành phố  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Mã cấp học  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Số sổ đăng bộ  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Họ và tên  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Số CCCD  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Mã học sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Giới tính  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Ngày sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Cân nặng kỳ 1  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Chiều cao kỳ 1  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Cân nặng kỳ 2  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Chiều cao kỳ 2  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tổng số buổi nghỉ có phép  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Tổng số buổi nghỉ không phép  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Nơi sinh  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Quê quán  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Chỗ ở hiện nay  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Dân tộc  | X | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Họ và tên cha  |  | Cơ sở dữ liệu Ngành
+Thông tin  
+chung | Họ và tên mẹ  | X | Cơ sở dữ liệu Ngành
+
+
+
+
+
+Đối tượng  
+thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+ | Họ và tên người giám hộ  |  | Cơ sở dữ liệu Ngành
+ | Tên giáo viên chủ nhiệm  |  | Cơ sở dữ liệu Ngành
+ | Số CCCD giáo viên chủ nhiệm  |  | Cơ sở dữ liệu Ngành
+ | Tên hiệu trưởng  | X  | Cơ sở dữ liệu Ngành
+ | Số CCCD hiệu trưởng ̣ | X  | Cơ sở dữ liệu Ngành
+ | Mã khối  | X | Cơ sở dữ liệu Ngành
+ | Tên lớp  | X | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mã trường  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mã học sinh  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Tên học sinh  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Tên trường  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Tên lớp  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Khối  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Môn học  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Tên giáo viên  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá thường xuyên  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá giữa kì  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá cuối kì  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá cả năm  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá lại học kì  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Mức đánh giá lại cả năm  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Điểm theo môn đánh giá bằng điểm  số | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Điểm trung bình môn theo học kì  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Điểm trung bình môn cả năm  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Nhận xét  | X  | Cơ sở dữ liệu Ngành
+Theo dõi và  đánh giá học  sinh | Khen thưởng  | X  | Cơ sở dữ liệu Ngành
+Danh sách  
+thông tin ký | Giáo viên bộ môn  | X | Cơ sở dữ liệu Ngành
+Danh sách  
+thông tin ký | Ngày ký  | X  | 
+Danh sách  
+thông tin ký | Số CCCD  | X | Cơ sở dữ liệu Ngành
+
+
+
+
+
+Đối tượng  
+thông tin  | Trường dữ liệu | Bắt  
+buộc | Nguồn dữ liệu
+ | Giáo viên chủ nhiệm  | X  | Cơ sở dữ liệu Ngành
+ | Ngày ký  | X | 
+ | Số CCCD  | X | Cơ sở dữ liệu Ngành
+ | Cán bộ quản lý  | X | Cơ sở dữ liệu Ngành
+ | Ngày ký  | X | 
+ | Số CCCD  | X | Cơ sở dữ liệu Ngành
+ | Thông tin ký số phát hành của cơ  sở giáo dục | X | 
+ | Ngày ký  | X | 
+Thông tin  
+chữ ký số | Chữ ký số  | X | 
+Thông tin  
+chữ ký số | Dữ liệu được Ký số và chỉ ra thuật  toán được sử dụng trong thành  phần SignedInfo. | X | 
+Thông tin  
+chữ ký số | Giá trị của chữ ký số, nó được mã  hóa ở dạng base64 | X | 
+Thông tin  
+chữ ký số | Khóa cho người nhận, thường sử  dụng chứng thư số X.509. KeyInfo  (thông tin khóa) là một thành phần  cho phép người nhận tìm kiếm  khóa xác thực chữ ký số. KeyInfo  có thể chứa các khóa, các tên, các  chứng thư số và các thông tin quản  lý khóa công khai. | X |",PhuLuc
+1789/QĐ-SGDĐT-Phụ_lục_IV,Phụ lục IV,"CƠ SỞ DỮ LIỆU HỌC BẠ SỐ CẤP TRUNG HỌC 
+NGÀNH GDĐT THÀNH PHỐ HỒ CHÍ MINH
+Đối tượng  thông tin  | Trường dữ liệu  | Bắt buộc  | Nguồn dữ liệu
+Thông tin  chung | Phiên bản  | X | 
+Thông tin  chung | Thông tư  | X | 
+Thông tin  chung | Mã số tra cứu học bạ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên năm học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã sở giáo dục  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên sở giáo dục  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã trường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên trường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên quận huyện  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên xã phường  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tên tỉnh thành phố  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã cấp học  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Số sổ đăng bộ  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Họ và tên  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã số định danh cá nhân  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Mã học sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Giới tính  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Ngày sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Cân nặng  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Chiều cao  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tổng số buổi nghỉ có phép  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Tổng số buổi nghỉ không  phép | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Nơi sinh  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Quê quán  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Chỗ ở hiện nay  | X  | Hệ thống theo dõi và đánh giá học sinh
+Thông tin  chung | Dân tộc  | X  | Hệ thống theo dõi và đánh giá học sinh
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu  | Bắt buộc  | Nguồn dữ liệu
+ | Quốc tịch  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên cha  |  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên mẹ  | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Họ và tên người giám hộ  |  | Hệ thống theo dõi và đánh giá học sinh
+ | Tên hiệu trưởng ký học  bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Số CCCD hiệu trưởng ký học bạ | X  | Hệ thống theo dõi và đánh giá học sinh
+ | Địa danh phát hành học bạ  | X  | Hệ thống quản lý dữ liệu học bạ số Thành phố
+ | Ngày tạo học bạ  | X  | Hệ thống quản lý dữ liệu học bạ số Thành phố
+ | Ngày ký phát hành học bạ  | X  | Hệ thống quản lý dữ liệu học bạ số Thành phố
+ | Tên giáo viên chủ nhiệm |  | Hệ thống theo dõi và đánh giá học sinh
+ | Số CCCD giáo viên chủ nhiệm |  | Hệ thống theo dõi và đánh giá học sinh
+ | Mã khối  | X | Hệ thống theo dõi và đánh giá học sinh
+ | Tên lớp  | X | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Năm học  | X | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Tên lớp  | X | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Tên trường  | X | Hệ thống theo dõi và đánh giá học sinh
+Quá trình  học tập | Ngày trạng thái chuyển  đến | X | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Kết quả xếp loại  | X | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Được lên lớp  | X | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Nội dung hoàn thành  chương trình lớp học |  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Đã hoàn thành chương  trình lớp học | X | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Đã hoàn thành chương  trình trung học phổ thông |  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Nội dung khen thưởng  |  | Hệ thống theo dõi và đánh giá học sinh
+Tổng kết | Nội dung khen thưởng đột  xuất |  | Hệ thống theo dõi và đánh giá học sinh
+
+
+
+
+
+Đối tượng  thông tin  | Trường dữ liệu  | Bắt buộc  | Nguồn dữ liệu
+ | Nhận xét giáo viên chủ nhiệm | X | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Mã môn học  | X | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Tên môn học  | X | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Mức đạt được  | X | Hệ thống theo dõi và đánh giá học sinh
+Bảng điểm | Điểm kiểm tra định kỳ |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Giáo viên chủ nhiệm |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Ngày ký |  | 
+Danh sách  thông tin ký | Số CCCD giáo viên chủ  nhiệm |  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Cán bộ quản lý  | X  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Ngày ký  | X  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Số CCCD cán bộ quản lý  | X  | Hệ thống theo dõi và đánh giá học sinh
+Danh sách  thông tin ký | Thông tin ký số phát hành  của cơ sở giáo dục | X | 
+Danh sách  thông tin ký | Ngày ký  | X | 
+Thông tin  chữ ký số | Chữ ký số  | X | 
+Thông tin  chữ ký số | Dữ liệu được Ký số và chỉ  ra thuật toán được sử dụng  trong thành phần  
+SignedInfo. | X | 
+Thông tin  chữ ký số | Giá trị của chữ ký số, nó  được mã hóa ở dạng  base64 | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng thư  số X.509. KeyInfo (thông  tin khóa) là một thành  phần cho phép người nhận  tìm kiếm khóa xác thực  chữ ký số. KeyInfo có thể  chứa các khóa, các tên, các chứng thư số và các thông  tin quản lý khóa công  khai. | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng thư  số X.509. KeyInfo (thông  tin khóa) là một thành  phần cho phép người nhận  tìm kiếm khóa xác thực  chữ ký số. KeyInfo có thể  chứa các khóa, các tên, các chứng thư số và các thông  tin quản lý khóa công  khai. | X | 
+Thông tin  chữ ký số | Khóa cho người nhận,  thường sử dụng chứng thư  số X.509. KeyInfo (thông  tin khóa) là một thành  phần cho phép người nhận  tìm kiếm khóa xác thực  chữ ký số. KeyInfo có thể  chứa các khóa, các tên, các chứng thư số và các thông  tin quản lý khóa công  khai. | X |",PhuLuc

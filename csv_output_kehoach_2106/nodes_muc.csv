@@ -1,0 +1,68 @@
+mucId:ID,soMuc,tieuDe,noiDung,:LABEL
+2106/KH-SGDĐT-Muc_II,II,II. PHẠM VI VÀ ĐỐI TƯỢNG ÁP DỤNG,"Phạm vi: triển khai quản lý, sử dụng Hệ thống theo dõi, đánh giá học sinh (Bảng tổng hợp đánh giá kết quả giáo dục/Sổ theo dõi và đánh giá học sinh) và  Học bạ số trên môi trường số. 
+Đối tượng: toàn thể CBQL, GV, NV và học sinh có liên quan đến việc quản  lý, cập nhật, sử dụng và khai thác Hệ thống.",Muc
+2106/KH-SGDĐT-Muc_III,III,III. NỘI DUNG TRIỂN KHAI,"1. Thành lập Ban Chỉ đạo và ban hành quy chế cấp trường 
+Hiệu trưởng ban hành Quyết định thành lập Ban Chỉ đạo và Quy chế triển khai Hệ thống theo dõi, đánh giá học sinh và Học bạ số của trường; xây dựng quy trình  chi tiết cho việc tạo lập, cập nhật, phê duyệt, ký số, lưu trữ và tra cứu. 
+Phân công nhiệm vụ cụ thể cho từng đối tượng: Hiệu trưởng/Phó Hiệu trưởng phụ trách, tổ trưởng chuyên môn, quản trị hệ thống, NV học vụ, văn thư, GV bộ môn,  GV chủ nhiệm (theo Chương VI của Quyết định số 1789/QĐ-SGDĐT).  
+2. Công tác chuẩn bị 
+2.1. Rà soát, lựa chọn giải pháp phần mềm 
+Các cơ sở giáo dục đảm bảo sử dụng Hệ thống đồng bộ với hệ thống CSDL ngành GDĐT Thành phố, đáp ứng cấu trúc thông tin Học bạ số và có thể xuất ra  bản thể hiện và in được trên giấy theo mẫu được Bộ Giáo dục và Đào tạo quy định  về học bạ giấy (Phụ lục đính kèm).
+4 
+Hệ thống đáp ứng yêu cầu đặc tả kỹ thuật và kết nối dữ liệu của Bộ GDĐT; kết nối với CSDL ngành GDĐT; đảm bảo tuân thủ quy định tại Quyết định số 1230/QĐ-SGDĐT và tích hợp các chữ ký số theo yêu cầu của đơn vị. 
+Tổ chức lựa chọn đơn vị cung cấp giải pháp đảm bảo công khai, minh bạch.  
+2.2. Đảm bảo hạ tầng: rà soát, chuẩn bị cơ sở vật chất, trang thiết bị (máy tính,  đường truyền internet, thiết bị lưu trữ) phục vụ vận hành Hệ thống.  
+2.3. Mã định danh cá nhân: phối hợp với cơ quan công an địa phương  đảm bảo 100% CBQL, GV, NV và học sinh có mã số định danh cá nhân và được  cập nhật chính xác trên CSDL ngành GDĐT. 
+2.4. Chứng thư số và chữ ký số 
+Thực hiện thủ tục đề nghị cấp chứng thư số, chữ ký số chuyên dùng công vụ cho đơn vị (nếu chưa có hoặc cần gia hạn). 
+Tổ chức, tạo điều kiện và hướng dẫn CBQL, GV, NV liên quan đăng ký  cấp chứng thư số, chữ ký số cá nhân (đối với trường ngoài công lập, rà soát hợp đồng lao động, phân công giảng dạy). Triển khai đồng bộ việc sử dụng chữ ký số cho  cá nhân, tổ chức có thẩm quyền để xác thực và đảm bảo tính pháp lý cho Hệ thống. 
+2.5. Rà soát, chuẩn hóa và đảm bảo tính chính xác, đầy đủ, thống nhất của  dữ liệu học sinh và kết quả học tập trên CSDL ngành. Tất cả hệ thống quản lý  nhà trường của đơn vị thực hiện kết nối thời gian thực với CSDL ngành GDĐT. 
+3. Một số nội dung lưu ý 
+3.1. Học bạ số có giá trị pháp lý tương đương học bạ giấy, được sử dụng  thay thế học bạ giấy trong các thủ tục hành chính liên quan đến hoạt động học tập  của học sinh. Học bạ số phải được xác nhận bằng chứng thư số của nhà trường và  chữ ký sử dụng chứng thư số của các cá nhân có trách nhiệm liên quan; thông tin  thời gian ký số trên dữ liệu phải tuân thủ theo quy định chung về quản lý học bạ. 
+3.2. Học bạ số gồm cả 2 định dạng PDF và XML có giá trị như nhau khi  sử dụng trên môi trường số. Biểu mẫu xuất file PDF đảm bảo theo quy định của  Bộ GDĐT và Luật Giao dịch điện tử về chữ ký số và chứng thư số. 
+3.3. Quá trình hình thành “sổ theo dõi, đánh giá học sinh và Học bạ số”  là hoạt động thực hiện trên môi trường số không phải là thực hiện in đè dữ liệu  trên mẫu có sẵn. Dữ liệu học bạ của các năm học khác nhau của cùng một học  sinh được liên kết chặt chẽ trong hệ thống cơ sở dữ liệu. Hệ thống này sử dụng  các thuật toán và mã định danh duy nhất để quản lý, đảm bảo tính liên tục và  toàn vẹn của hồ sơ học tập của học sinh qua các năm và các cấp học. 
+Tính toàn vẹn và bảo mật là những yếu tố cốt lõi của Học bạ số. Dữ liệu  trong Học bạ số khi đã được hoàn thành quy trình xác thực (ký số bởi giáo viên, 
+5 
+hiệu trưởng và các cấp có thẩm quyền) sẽ được niêm phong về mặt kỹ thuật. Bất  kỳ sự thay đổi trái phép nào vào tệp dữ liệu này sẽ làm phá vỡ cấu trúc dữ liệu đã  được niêm phong hoặc làm mất hiệu lực của chữ ký số, dẫn đến việc tệp dữ liệu  đó không còn giá trị pháp lý và không được công nhận. 
+3.4. Học bạ số được in ra có giá trị pháp lý tương đương học bạ giấy khi được xác nhận bởi cơ sở giáo dục phát hành học bạ, Sở GDĐT hoặc được sao y từ  văn bản điện tử theo quy định. 
+3.5. Dữ liệu học sinh, nhân sự trên CSDL theo dõi, đánh giá học sinh và  Học bạ số được đồng bộ từ CSDL ngành GDĐT, đảm bảo các quy định về dữ liệu  theo Quyết định số 1230/QĐ-SGDĐT. 
+3.6. Sở GDĐT cung cấp giao thức cho phép các Hệ thống kết nối với CSDL theo dõi, đánh giá học sinh và Học bạ số dùng chung của ngành GDĐT, Cổng  xác thực học bạ số, Hệ thống quản lý dữ liệu Học bạ số của Thành phố thông qua  Nền tảng tích hợp dữ liệu của ngành GDĐT (Trục dữ liệu). 
+3.7. Việc phát hành học bạ số được kiểm soát thông qua hệ thống Hệ thống tại đơn vị; đảm bảo quy trình liên thông kết quả kiểm tra đánh giá được kiểm soát  chặt chẽ, lưu vết, phân công trách nhiệm. Chữ ký số của từng giáo viên trên Học bạ số đảm bảo giáo viên chịu trách nhiệm cho nội dung phụ trách. 
+3.8. Các quy định về vận hành, quản lý, lưu trữ và sử dụng Hệ thống phải thực hiện theo đúng quy định tại các điều, khoản thuộc Chương III, Chương IV của Quyết định số 1789/QĐ-SGDĐT.",Muc
+2106/KH-SGDĐT-Muc_IV,IV,IV. TIẾN ĐỘ THỰC HIỆN,"1. Giai đoạn 1 – chuẩn bị 
+Các đơn vị xây dựng kế hoạch; thành lập Ban Chỉ đạo, Tổ công tác triển  khai Hệ thống theo dõi, đánh giá học sinh và học bạ số, hoàn thành trước ngày  25 tháng 4 năm 2025. 
+Các đơn vị rà soát điều kiện hạ tầng công nghệ thông tin, chữ ký số, nhân sự,  tài chính để triển khai, hoàn thành trước ngày 29 tháng 4 năm 2025. 
+2. Giai đoạn 2 – triển khai Hệ thống 
+Phối hợp với các doanh nghiệp, đơn vị cung cấp giải pháp lựa chọn triển khai Hệ thống, ban hành Quy chế quản lý, sử dụng hệ thống tại đơn vị, hoàn thành  trước ngày 6 tháng 5 năm 2025. 
+Các đơn vị tổ chức tập huấn cho CBQL, GV, NV về quy trình, thao tác trên  Hệ thống, hoàn thành trước ngày 09 tháng 5 năm 2025. 
+Rà soát dữ liệu nhân thân, kết quả học tập, rèn luyện của toàn bộ học sinh  tại các đơn vị trên CSDL ngành GDĐT kết chuyển qua CSDL theo dõi và đánh giá học sinh, hoàn thành trước ngày 25 tháng 5 năm 2025.
+6 
+Thực hiện đầy đủ các quy trình rà soát, xác thực, ban hành dữ liệu theo dõi  và đánh giá học sinh (theo điều 14 chương III Quyết định số 1789/QĐ-SGDĐT) và kết chuyển dữ liệu từ Hệ thống theo dõi, đánh giá học sinh sang Hệ thống  Học bạ số trước ngày 29 tháng 5 năm 2025 (đối với Lớp 5, Lớp 9 thực hiện  trước 15 tháng 5 năm 2025). 
+Rà soát thực hiện ký số và ban hành Học bạ số trên hệ thống của đơn vị, hoàn thành trước ngày 30 tháng 5 năm 2025 (đối với Lớp 5, Lớp 9 thực hiện  trước 20 tháng 5 năm 2025) 
+3. Giai đoạn 3 – sử dụng học bạ số trong thủ tục hành chính và liên  thông lên Hệ thống quản lý Học bạ số ngành GDĐT Thành phố và Bộ GDĐT 
+Sử dụng Học bạ số để nộp lên Cổng Tuyển sinh (Lớp 5, Lớp 9) của ngành  GDĐT Thành phố, hoàn thành trước ngày 25 tháng 5 năm 2025 phục vụ công tác  tuyển sinh đầu cấp. 
+Tổ chức kiểm tra, đánh giá, liên thông với Hệ thống quản lý Học bạ số ngành GDĐT Thành phố và Bộ GDĐT trước ngày 15 tháng 8 năm 2025.",Muc
+2106/KH-SGDĐT-Muc_V,V,V. THỰC HIỆN SỐ HÓA HỌC BẠ,"Sở GDĐT đề nghị các cơ sở giáo dục thực hiện rà soát và số hóa dữ liệu  “Sổ Theo dõi, đánh giá học sinh và Học bạ số” của các năm học trước đối với các  khối lớp thực hiện Chương trình Giáo dục phổ thông 2018 theo hướng dẫn tại Quyết định số 1789/QĐ-SGDĐT. Các cơ sở giáo dục thực hiện rà soát, số hóa  Học bạ giấy sang Học bạ số theo đúng quy định về tạo lập và xác thực Học bạ số  tại chương IV của Quyết định số 1789/QĐ-SGDĐT, cụ thể: 
+1. Thủ trưởng đơn vị rà soát phân công các năm học trước, rà soát nội dung ký lưu trữ của Học bạ giấy, xây dựng kế hoạch số hóa dữ liệu Học bạ số.  
+2. GV thực hiện rà soát thông tin của Học bạ số trên Hệ thống (sau khi đã được  số hóa từ Học bạ giấy) và ký số đối với các nội dung mà GV đã phụ trách. 
+3. Đối với các nội dung của GV hiện không công tác tại đơn vị, NV học vụ  thực hiện rà soát thông tin của học bạ số trên Hệ thống (sau khi đã được số hóa từ  Học bạ giấy); thủ trưởng đơn vị thực hiện ký số và chịu trách nhiệm đối với các  nội dung sau khi đã được rà soát. 
+4. Khi tiếp nhận Học bạ giấy từ học sinh chuyển trường, xin học lại, NV học vụ thực hiện rà soát thông tin của Học bạ số trên Hệ thống (sau khi đã được  số hóa từ Học bạ giấy); thủ trưởng đơn vị thực hiện ký số và chịu trách nhiệm đối  với các nội dung sau khi đã được rà soát. 
+Thời gian thực hiện theo tiến độ nêu tại Mục IV của Kế hoạch này.  VI. TỔ CHỨC THỰC HIỆN 
+1. Văn phòng Sở 
+Xây dựng, triển khai giải pháp kỹ thuật theo mô hình, tiêu chuẩn, quy chuẩn  kỹ thuật đã được quy định; các nội dung liên quan đến tạo lập, lưu trữ, quản lý và 
+7 
+sử dụng Hệ thống trong các cấp học thuộc giáo dục phổ thông và giáo dục  thường xuyên; triển khai thống nhất, đồng bộ trên địa bàn Thành phố.  
+Phối hợp với các cơ quan chức năng, doanh nghiệp, chuyên gia công nghệ đề xuất, bổ sung hoặc điều chỉnh các yêu cầu kỹ thuật nhằm nâng cao hiệu quả sử dụng Hệ thống. 
+Tổng hợp kết quả triển khai, báo cáo cho Ủy ban nhân dân Thành phố và  Bộ GDĐT. 
+2. Phòng Giáo dục Phổ thông, phòng Giáo dục thường xuyên – Nghề nghiệp và Đại học 
+Ban hành văn bản chỉ đạo, hướng dẫn thực hiện tại các cơ sở giáo dục trên  địa bàn Thành phố. 
+Thực hiện công tác kiểm tra, giám sát việc triển khai tại các cơ sở giáo dục,  kịp thời hỗ trợ, tháo gỡ khó khăn, vướng mắc trong quá trình thực hiện. 
+Phối hợp với các cơ quan chức năng đề xuất, bổ sung hoặc điều chỉnh các  văn bản quy phạm pháp luật, quy định, hướng dẫn nhằm đảm bảo cơ sở pháp lý  cho việc sử dụng Học bạ số. 
+Chỉ đạo thực hiện hiệu quả công tác tuyên truyền, nâng cao nhận thức,  tầm quan trọng của việc thực hiện Học bạ số; đảm bảo các cơ sở giáo dục không  thu chi phí dịch vụ thực hiện Học bạ số từ học sinh, cha mẹ học sinh. 
+Tổ chức triển khai thực hiện Học bạ số theo Kế hoạch; tổ chức sơ kết đánh giá kết quả triển khai; kiến nghị, đề xuất về giải pháp triển khai Học bạ số. 
+3. Phòng GDĐT, các cơ sở giáo dục  
+Thành lập Ban Chỉ đạo do thủ trưởng đơn vị làm trưởng ban; Tổ Công tác  Học bạ số gồm thành viên là CBQL, nhân sự có trình độ ứng dụng công nghệ thông tin, chuyển đổi số để thực hiện tốt công tác triển khai Học bạ số. 
+Thực hiện hiệu quả công tác tuyên truyền, nâng cao nhận thức, tầm quan trọng của việc thực hiện Học bạ số đến CBQL, GV, NV, cha mẹ học sinh, học sinh về lợi ích, ý nghĩa của Học bạ số. 
+Xây dựng kế hoạch triển khai Hệ thống, phân công nhiệm vụ cụ thể, trách  nhiệm của từng cá nhân; ban hành quy chế quản lý, sử dụng Hệ thống tại đơn vị,  báo cáo Sở GDĐT tiến độ triển khai thực hiện và khó khăn, vướng mắc (nếu có). Tổ chức tập huấn nghiệp vụ cho 100% GV, NV để triển khai hiệu quả Học bạ số tại đơn vị. Tổ chức rà soát kiểm tra việc nhập dữ liệu Học bạ số của học sinh  đảm bảo chính xác.",Muc
+2106/KH-SGDĐT-Muc_VII,VII,VII. KINH PHÍ TRIỂN KHAI,"Kinh phí tổ chức các hoạt động triển khai thực hiện Học bạ số sử dụng từ nguồn ngân sách Nhà nước cấp hàng năm và nguồn kinh phí hợp pháp khác.  Nội dung và định mức chi thực hiện theo quy định hiện hành.
+8 
+Trên đây là Triển khai Hệ thống theo dõi, đánh giá học sinh và Học bạ số trên địa bàn Thành phố Hồ Chí Minh từ năm học 2024 - 2025, yêu cầu các đơn vị căn cứ vào chức năng, nhiệm vụ trong Kế hoạch này xây dựng kế hoạch triển khai,  chỉ đạo thực hiện tại đơn vị./.",Muc

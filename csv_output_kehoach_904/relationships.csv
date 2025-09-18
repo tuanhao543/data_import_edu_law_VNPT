@@ -1,0 +1,78 @@
+:START_ID,:END_ID,:TYPE
+BỘ GIÁO DỤC VÀ ĐÀO TẠO,904/KH-BGDĐT,BAN_HANH
+904/KH-BGDĐT,Phạm Ngọc Thưởng,KY_BOI
+904/KH-BGDĐT,04/CT-TTg,CAN_CU
+904/KH-BGDĐT,904/KH-BGDĐT-Muc_I,CO_MUC
+904/KH-BGDĐT,904/KH-BGDĐT-Muc_II,CO_MUC
+904/KH-BGDĐT-Muc_II,904/KH-BGDĐT-Muc_II-NV_1,GIAO_NHIEM_VU
+Vụ GDTrH,904/KH-BGDĐT-Muc_II-NV_1,CHU_TRI
+Vụ GDTX,904/KH-BGDĐT-Muc_II-NV_1,PHOI_HOP
+Cục CNTT,904/KH-BGDĐT-Muc_II-NV_1,PHOI_HOP
+Vụ PC,904/KH-BGDĐT-Muc_II-NV_1,PHOI_HOP
+Vụ KHTC,904/KH-BGDĐT-Muc_II-NV_1,PHOI_HOP
+904/KH-BGDĐT-Muc_II,904/KH-BGDĐT-Muc_II-NV_3,GIAO_NHIEM_VU
+Vụ GDTrH,904/KH-BGDĐT-Muc_II-NV_3,CHU_TRI
+Vụ GDTX,904/KH-BGDĐT-Muc_II-NV_3,PHOI_HOP
+Cục CNTT,904/KH-BGDĐT-Muc_II-NV_3,PHOI_HOP
+Vụ KHTC Các Sở GDĐT,904/KH-BGDĐT-Muc_II-NV_3,PHOI_HOP
+đơn vị cung cấp dịch vụ,904/KH-BGDĐT-Muc_II-NV_3,PHOI_HOP
+904/KH-BGDĐT-Muc_II,904/KH-BGDĐT-Muc_II-NV_5,GIAO_NHIEM_VU
+Sở GDĐT,904/KH-BGDĐT-Muc_II-NV_5,CHU_TRI
+Vụ GDTX,904/KH-BGDĐT-Muc_II-NV_5,PHOI_HOP
+Vụ GDTrH,904/KH-BGDĐT-Muc_II-NV_5,PHOI_HOP
+Vụ PC,904/KH-BGDĐT-Muc_II-NV_5,PHOI_HOP
+Cục CNTT,904/KH-BGDĐT-Muc_II-NV_5,PHOI_HOP
+Vụ KHTC và các đơn vị cung cấp dịch vụ,904/KH-BGDĐT-Muc_II-NV_5,PHOI_HOP
+904/KH-BGDĐT-Muc_II,904/KH-BGDĐT-Muc_II-NV_7,GIAO_NHIEM_VU
+Vụ GDTrH,904/KH-BGDĐT-Muc_II-NV_7,CHU_TRI
+Vụ GDTX,904/KH-BGDĐT-Muc_II-NV_7,PHOI_HOP
+Cục CNTT,904/KH-BGDĐT-Muc_II-NV_7,PHOI_HOP
+Vụ KHTC và các đơn vị cung cấp dịch vụ,904/KH-BGDĐT-Muc_II-NV_7,PHOI_HOP
+904/KH-BGDĐT,904/KH-BGDĐT-Muc_III,CO_MUC
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Cục_Công_nghệ_thông_,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Cục_Công_nghệ_thông_,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Xây_dựng_kế_hoạch_tr,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Xây_dựng_kế_hoạch_tr,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Khảo_sát_thực_tế_tại,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Khảo_sát_thực_tế_tại,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Hội_nghị_xây_dựng_ph,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Hội_nghị_xây_dựng_ph,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Ban_hành_văn_bản_hướ,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Ban_hành_văn_bản_hướ,CHU_TRI
+904/KH-BGDĐT-Muc_III,"904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Tổ_chức_hỗ_trợ,_kiểm",GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,"904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Tổ_chức_hỗ_trợ,_kiểm",CHU_TRI
+904/KH-BGDĐT-Muc_III,"904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Tổ_chức_tổng_kết,_đá",GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,"904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Tổ_chức_tổng_kết,_đá",CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Kí_ban_hành_các_văn_,GIAO_NHIEM_VU
+Vụ Giáo dục Trung học,904/KH-BGDĐT-Muc_III-Vụ_Giáo_dục_Trung_học-Kí_ban_hành_các_văn_,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Giáo_dục_Thường_xuyê,GIAO_NHIEM_VU
+Cục Công nghệ thông tin,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Giáo_dục_Thường_xuyê,CHU_TRI
+904/KH-BGDĐT-Muc_III,"904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Xây_dựng_yêu_cầu,_qu",GIAO_NHIEM_VU
+Cục Công nghệ thông tin,"904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Xây_dựng_yêu_cầu,_qu",CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Đánh_giá_giải_pháp_k,GIAO_NHIEM_VU
+Cục Công nghệ thông tin,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Đánh_giá_giải_pháp_k,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Phối_hợp_tổ_chức_tri,GIAO_NHIEM_VU
+Cục Công nghệ thông tin,904/KH-BGDĐT-Muc_III-Cục_Công_nghệ_thông_tin-Phối_hợp_tổ_chức_tri,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Kế_hoạch_-_Tài_chính-toán_kinh_phí_thực_h,GIAO_NHIEM_VU
+Vụ Kế hoạch - Tài chính,904/KH-BGDĐT-Muc_III-Vụ_Kế_hoạch_-_Tài_chính-toán_kinh_phí_thực_h,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Vụ_Kế_hoạch_-_Tài_chính-duyệt_kinh_phí.,GIAO_NHIEM_VU
+Vụ Kế hoạch - Tài chính,904/KH-BGDĐT-Muc_III-Vụ_Kế_hoạch_-_Tài_chính-duyệt_kinh_phí.,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Xây_dựng_kế_hoạch_tr,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Xây_dựng_kế_hoạch_tr,CHU_TRI
+904/KH-BGDĐT-Muc_III,"904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Tổ_chức,_chỉ_đạo_các",GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,"904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Tổ_chức,_chỉ_đạo_các",CHU_TRI
+904/KH-BGDĐT-Muc_III,"904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-giá,_chuẩn_bị_các_đi",GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,"904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-giá,_chuẩn_bị_các_đi",CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-triển_khai_Học_bạ_số,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-triển_khai_Học_bạ_số,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Phối_hợp_các_đơn_vị_,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Phối_hợp_các_đơn_vị_,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-cụ_thể_tại_địa_phươn,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-cụ_thể_tại_địa_phươn,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Tổ_chức_triển_khai_H,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-Tổ_chức_triển_khai_H,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-triển_khai_tại_địa_p,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-triển_khai_tại_địa_p,CHU_TRI
+904/KH-BGDĐT-Muc_III,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-số_ở_cấp_Trung_học.,GIAO_NHIEM_VU
+Các Sở Giáo dục và Đào tạo,904/KH-BGDĐT-Muc_III-Các_Sở_Giáo_dục_và_Đào_tạo-số_ở_cấp_Trung_học.,CHU_TRI
+904/KH-BGDĐT,904/KH-BGDĐT-Muc_IV,CO_MUC
